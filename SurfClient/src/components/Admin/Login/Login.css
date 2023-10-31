@@ -1,0 +1,176 @@
+@media screen and (max-width:1920px) and (min-width:1366px)  {
+
+  @font-face {
+    font-family: cfont;
+    src: url('../../../Font/CustomFont.ttf');
+  }
+   *{
+      font-family: cfont;
+    }
+  #email,#pwd,#employeeid
+    {
+        width:300px;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: 2px solid #ccc;
+        color:black;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size:14px;
+      
+    }
+  p
+  {
+    color: white;
+  }
+    .split {
+      height: 96%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      /* overflow-x: hidden; */
+      padding-top: 20px;
+    }
+    
+    /* Control the left side */
+    .left {
+      left: 0;
+     
+    }
+    
+    /* Control the right side */
+    .right {
+      /* //width:20%; */
+      right: -300px;
+      
+    }
+    
+    .loginalign {
+      position: absolute;
+      top: 53%;
+      left: 32%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+    
+    /* If you want the content centered horizontally and vertically */
+    .centered {
+      position: absolute;
+      top: 49%;
+      left: 33%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    h5.errorLabel {
+      margin-left: 180px;
+      color: red;
+      margin-top: 5px;
+  }
+  .image
+  {
+    background-image: url(../../../images/image.jpg);
+    width:150%;
+    height: 968px;
+  }
+  .employeeLogin {
+    margin-left: 145%;
+  }
+ 
+.employeeLoginD {
+    margin-left: 75%;
+    margin-top: 2%;
+}
+
+
+
+}
+@media screen and (max-width:1366px) and (min-width:600px)  {
+  .employeeLoginD {
+    margin-left: 67%;
+}
+  @font-face {
+    font-family: cfont;
+    src: url('../../../Font/CustomFont.ttf');
+  }
+   *{
+      font-family: cfont;
+    }
+
+  #email,#pwd,#employeeid
+  {
+      width:300px;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: 2px solid #ccc;
+      color:black;
+      box-sizing: border-box;
+      border-radius: 10px;
+      font-size:14px;
+    
+  }
+p
+{
+  color: white;
+}
+  .split {
+    height: 96%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+   
+  }
+  
+  /* Control the right side */
+  .right {
+    /* //width:20%; */
+    right: -300px;
+    
+  }
+  
+  .loginalign {
+    position: absolute;
+    top: 53%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 49%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  h5.errorLabel {
+    margin-left: 180px;
+    color: red;
+    margin-top: 5px;
+}
+.image {
+  background-image: url(../../../images/image.jpg);
+  /* width: 150%; */
+  height: 655px;
+}
+.employeeLogin {
+  margin-left: 145%;
+}
+
+
+
+}
+
+/* button.btn.btn-light {
+  margin-left: 104%;
+  margin-top: -63%;
+} */

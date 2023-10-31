@@ -1,0 +1,28 @@
+@font-face {
+  font-family: cfont;
+  src: url('../../../Font/CustomFont.ttf');
+}
+ *{
+    font-family: cfont;
+  }
+ 
+  center 
+  {
+    color:dodgerblue;
+  }
+  @media screen and (max-width: 1920px) and (min-width:1080px){
+
+    .logout {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+  }
+
+  }
+  @media screen and (max-width: 1024px) and (min-width:768px){
+    .logout {
+      position: absolute;
+      top: 50%;
+      left: 27%;
+  }
+  }

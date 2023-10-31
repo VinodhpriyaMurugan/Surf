@@ -1,0 +1,218 @@
+@media screen and (max-width:1920px) and (min-width:1366px)  {    
+    input.userPageSubmitBtn {
+        border-radius: 16px;
+    }
+    .userLoginImage
+    {
+        background-image: url(../../images/userLogin.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+    .adminLinkD {
+        margin-top: -21%;
+        margin-left: 93%;
+        font-size: 20px;
+    }
+    .userInput {
+        position: absolute;
+        top: 47%;
+        left: 20%;
+    }
+    .newAdminLogin {
+        position: relative;
+        width: 26%;
+        top: 39%;
+        left: 36%;
+        height: 45%;
+    }
+    .userErrorLabel {
+    margin-left: 55px;
+    color: red;
+    margin-top: 3px;
+}
+.employeeLink {
+    margin-top: -34%;
+    margin-left: 94%;
+    font-size: 20px;
+}
+    
+
+    }
+    
+    @media screen and (max-width:1366px) and (min-width:600px)  {  
+        input.userPageSubmitBtn {
+            border-radius: 16px;
+        }
+        h5.userErrorLabel {
+            margin-left: 17%;
+            margin-top: 0%;
+        }
+        .newAdminLogin {
+            position: relative;
+            width: 26%;
+            top: 39%;
+            left: 36%;
+            height: 45%;
+        }
+
+        .userLoginImage
+        {
+            background-image: url(../../images/userLogin.png);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }  
+        .adminLinkD {
+            margin-top: -20%;
+            margin-left: 91%;
+            font-size: 20px;
+        }
+        .userInput {
+            /* margin-top: 18%; */
+            position: absolute;
+            top: 49%;
+            left: 9%;
+        }
+        .employeeLink {
+            margin-top: -32%;
+            margin-left: 93%;
+            font-size: 20px;
+        }
+        
+       
+        } 
+
+        @media screen and (max-width:1280px) and (min-width:800px)  {
+
+            .userLoginImage {
+                background-image: url(../../images/userLogin.png);
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left: 0%;
+            }
+            
+            .newAdminLogin {
+                position: relative;
+                width: 26%;
+                top: 30%;
+                left: 37%;
+                height: 45%;
+        }
+        .adminLinkD {
+            margin-top: -24%;
+            margin-left: 89%;
+            font-size: 20px;
+        }
+    }
+        @media screen and (max-width:1024px) and (min-width:768px)  {
+
+            .userLoginImage {
+                background-image: url(../../images/userLogin.png);
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left: -57%;
+            }
+            .newAdminLogin {
+                position: relative;
+                width: 26%;
+                top: 33%;
+                left: 53%;
+                height: 45%;
+            }
+            .adminLinkD {
+                margin-top: -34%;
+                margin-left: 87%;
+                font-size: 31px;
+            }
+        }
+        @media screen and (max-width:1194px) and (min-width:834px)  {
+            .userLoginImage {
+                background-image: url(../../images/userLogin.png);
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left: -65%;
+            }
+            .newAdminLogin {
+                position: relative;
+                width: 26%;
+                top: 33%;
+                left: 56%;
+                height: 45%;
+            }
+            .adminLinkD {
+                margin-top: -34%;
+                margin-left: 87%;
+                font-size: 31px;
+            }
+
+        }
+        @media screen and (max-width:1180px) and (min-width:820px)  {
+
+            .userLoginImage {
+                background-image: url(../../images/userLogin.png);
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left: -65%;
+            }
+            .newAdminLogin {
+                position: relative;
+                width: 26%;
+                top: 33%;
+                left: 57%;
+                height: 45%;
+            }
+            .adminLinkD {
+                margin-top: -34%;
+                margin-left: 87%;
+                font-size: 31px;
+            }
+        }
+        @media screen and (max-width:767px) and (min-width:350px) {
+            .userLoginImage
+        {
+            background-image: url(../../images/userLogin.png);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }  
+        #email, #pwd, #employeeid {
+            width: 153px;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: 2px solid #ccc;
+            color: black;
+            box-sizing: border-box;
+            border-radius: 10px;
+            font-size: 14px;
+            opacity: 0.5;
+        }
+        input.userPageSubmitBtn {
+            opacity: 0.5;
+            color: #212324;
+            font-size: 23px;
+            border-radius: 16px;
+            height: 8vh;
+            width: 74%;
+            padding-top: 2%;
+        }
+        .newAdminLogin {
+            width: 85%;
+            position: absolute;
+            top: 33%;
+            left: 9%;
+        }
+        .adminLinkD {
+            position: absolute;
+            top: 88%;
+            left: 72%;
+            font-size: 22px;
+        }
+        p.adminTag {
+            color: #f3c729f0;
+        }
+        }

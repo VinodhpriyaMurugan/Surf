@@ -1,0 +1,172 @@
+@font-face {
+    font-family: cfont;
+    src: url('../../../Font/CustomFont.ttf');
+  }
+   *{
+      font-family: cfont;
+    }
+  .usertop
+    {
+     
+      background-color: #040D39;
+      position: fixed;
+      top: 0;
+      /* left: 220px; */
+      width: 100%;
+      height: 8%;
+      
+    }
+    
+    button.logOutButton1.btn.btn-primary {
+      position: absolute;
+      height: 5vh;
+      background-color: #040D39;
+      left: 96%;
+      width: 3%;
+      padding: 0%;
+      border-color: #040D39;
+      top: 14%;
+  }
+  @media screen and (max-width:1920px) and (min-width:1080px) {
+    .logos {
+      width: 12%;
+      height: 8%;
+      position: fixed;
+      top: 0%;
+  }
+  .foodMenuDivTop {
+    position: absolute;
+    width: 40%;
+    left: 374%;
+    top: 2%;
+    cursor: pointer;
+}
+  b.foodMenu{
+    position: absolute;
+    left: -93%;
+    font-size: 17px;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  b.feedbackTop {
+    position: absolute;
+      left: 40%;
+      font-size: 17px;
+      color: white;
+      font-weight: 100;
+      cursor: pointer;
+    }
+    b.cancelrequesttop {
+      position: absolute;
+      left: 161%;
+      font-size: 17px;
+      color: white;
+      font-weight: 100;
+  }
+  }
+  @media screen and (max-width:1366px) and (min-width:768px) {
+    .logos {
+      width: 14%;
+      height: 12%;
+      position: fixed;
+      top: -2%;
+  }
+  .foodMenuDivTop {
+    position: absolute;
+    width: 40%;
+    left: 374%;
+    top: 2%;
+    cursor: pointer;
+}
+b.foodMenu{
+  position: absolute;
+  left: -93%;
+  font-size: 17px;
+  color: white;
+  font-weight: 100;
+  cursor: pointer;
+}
+b.feedbackTop {
+  position: absolute;
+    left: 40%;
+    font-size: 17px;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  b.cancelrequesttop {
+    position: absolute;
+    left: 161%;
+    font-size: 17px;
+    color: white;
+    font-weight: 100;
+}
+  }
+  @media screen and (max-width:1100px) and (min-width:800px) {
+    .logos {
+      width: 20%;
+      height: 8%;
+      position: fixed;
+      top: 0%;
+  }
+  }
+  @media screen and (max-width:799px) and (min-width:350px) {
+    .usertop {     
+      background-color: #040D39;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 9vh;
+    /* left: 0%; */
+   
+  }
+  .foodMenuDivTop {
+    position: absolute;
+    top: 1.5%;
+    left: 39%;
+    width: 49%;
+    height: 4%;
+    border-radius: 16px;
+    box-shadow: white;
+  }
+  button.logOutButton1.btn.btn-primary {
+    position: absolute;
+    height: 5vh;
+    background-color: #040D39;
+    left: 89%;
+    width: 3%;
+    padding: 0%;
+    border-color: #040D39;
+    top: 13%;
+}
+b.foodMenu {
+  position: absolute;
+    top: 24%;
+    left: 18%;
+    font-size: 76%;
+    font-weight: 200;
+    color: #ffffff;
+}
+b.feedbackTop{
+  position: absolute;
+  top: 24%;
+  left: 53%;
+  font-size: 76%;
+  font-weight: 200;
+  color: #ffffff;
+}
+b.cancelrequesttop{
+  position: absolute;
+  top: 26%;
+  left: 79%;
+  font-size: 76%;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+
+  }
+  @media screen and (max-width:1024px) and (min-width:768px) {
+    
+  }

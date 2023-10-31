@@ -1,0 +1,82 @@
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 34% !important;
+    left: 3% !important;
+    height: 80% !important;
+    top: 2% !important;
+    overflow-y: hidden !important;
+}
+.vaccineDiv {
+    position: absolute;
+    top: 34%;
+    font-size: 24px;
+    left: 13%;
+}
+b.vaccinLab {
+    color: #9de6ed;
+
+}
+.fullDose {
+    position: absolute;
+    top: 55%;
+    left: 14%;
+}
+label.vaccineLable {
+    color: #9de6ed;
+    font-size: 20px;
+}
+.vaccinationSave {
+    position: absolute;
+    top: 100%;
+    left: 67%;
+}
+svg.svg-inline--fa.fa-plus-circle.plusIcon {
+    width: 150%;
+    height: 0%;
+    margin-left: -25%;
+    margin-top: 16%;
+}
+button.vaccinationAdd.btn.btn-primary {
+    width: 32%;
+    height: 86%;
+    border-radius: 30px;
+    margin-top: -56%;
+    background-color: #0057f7;
+    border-color: #0057f7;
+    margin-left: 59%;
+}
+button.vaccinationSave.btn.btn-primary {
+    margin-top: -55%;
+    width: 33%;
+    margin-left: -53%;
+    border-radius: 30px;
+    background-color: #0057f7;
+    border-color: #0057f7;
+}
+svg.svg-inline--fa.fa-save.saveIcon {
+    width: 110%;
+    height: 0%;
+   
+}
+h4.autosavemsg {
+    text-align: center;
+    color: darkslategray;
+}
+svg.svg-inline--fa.fa-thumbs-up.thumbsup {
+
+    color: limegreen;
+    font-size: 58px;
+}
+.dialogcss {
+    width: 76%;
+    margin-left: 14%;
+    height: 44%;
+    margin-top: 20%;
+}
+button.savedVaccine.btn.btn-primary {
+    width: 20%;
+    margin-left: 43%;
+}
+h5.dateErrorLabel {
+    color: red;
+    margin-left: 3%;
+}

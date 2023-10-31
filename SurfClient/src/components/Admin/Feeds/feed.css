@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f0f0f0; */
+    overflow: hidden;
+    border-radius: 33px;
+      /* background-color: #a8c7eb; */
+      max-width: 2020px;
+  }
+  img.layout-img {
+    width: 2vw;
+}
+.displaymsg {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Optional: Add margin between each set of elements */
+}
+
+.tsig {
+  margin-right: 10px; /* Adjust the margin between the image and the first message */
+}
+img.tsig {
+  width: 6vw;
+}
+.exp-tag {
+  margin-right: 5px; /* Adjust the margin between yearsOfExp and 'th' */
+}
+
+.exp-suffix {
+  font-size: 0.6em; /* Optional: Reduce font size for the suffix */
+}
+button.layoutBtn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 96vw;
+  top: 1vw;
+}
+  @font-face {
+    font-family: feedFont;
+    src: url('../../../Font/KaushanScript-Regular.ttf');
+  }
+   *{
+       font-family: feedFont !important;
+    }
+  .feed-parent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+.fade-in-out-text {
+  width: 50vw;
+}
+h4.display-msgtag {
+  font-size: 3em;
+}
+h1.exp-tag {
+  font-size: 10em;
+}
+.employee-container-img {
+  /* position: absolute; */
+  width: 40vw;
+  height: 40vw;
+}
+img.feedimg {
+  width: 25vw;
+  position: absolute;
+  border-radius: 25px;
+  /* top: -19vw; */
+}
+.img-div {
+  width: 40vw;
+  height: 65vh;
+}
+.work-area {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0vw;
+  background-image: url('../../../images/bdayBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: antiquewhite;
+}
+.birthday-bg {
+  background-image: url('../../../images/bdayBg.jpg');
+}
+
+.anniversary-bg {
+  background-image: url('../../../images/feedsBg.jpg');
+}
+  .employee-container {
+    width: 50vw;
+    font-size: 24px;
+    text-align: center;
+    animation: fadeInOut 5s infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .snowfall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .flowers {
+    position: fixed;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #ff69b4;
+    font-weight: bold;
+    z-index: 2;
+  }
+  
+  .snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: fall linear infinite;
+    z-index: 0;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-5vh);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 1;
+    }
+  }
+  

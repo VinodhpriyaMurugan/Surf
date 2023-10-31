@@ -1,0 +1,22 @@
+button.ant-btn.ant-btn-default {
+  display: none;
+}
+img.timeout {
+  position: absolute;
+  top: -363%;
+  left: 4%;
+}
+
+.timedout {
+  position: absolute;
+  top: 58%;
+  left: 43%;
+}
+@media screen and (max-width:767px) and (min-width:350px) {
+    
+    .timedout {
+        position: absolute;
+        top: 58%;
+        left: 25%;
+    }
+}

@@ -1,0 +1,1091 @@
+svg.svg-inline--fa.fa-trash.gridDisableDelete {
+  color: red;
+  opacity: 0.3;
+}
+td.dateDisabledfont {
+  opacity: 0.7;
+}
+button.expandGridData.btn.btn-primary {
+  position: absolute;
+  width: 4%;
+  height: 31%;
+  top: 3%;
+  left: 73%;
+  padding-top: 1px;
+  padding-left: 1%;
+  /* border-radius: 40px; */
+  /* color: dodgerblue; */
+  /* background-color: white; */
+}  
+/* .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  position: absolute;
+    top: 7%;
+    height: 85%;
+  width: 32%;
+} */
+input.ExpandReservationSave {
+  position: absolute;
+  top: 88%;
+  left: 81%;
+  border-radius: 8px;
+  width: 16%;
+  padding-left: 14px;
+}
+/* table.expandUserfoodTable.table.table-striped {
+  display: block;
+  overflow-y: scroll;
+  width: 102%;
+} */
+/* .blockedDiv {
+  background-color: #e1d6d6;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+} */
+img.blockedDialogImgTag {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+}
+h3.Blockedmsg {
+  position: relative;
+  top: 0%;
+  left: 1%;
+  width: 100%;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+p.textTag {
+  position: relative;
+  color: #092148;
+  top: 6%;
+  left: 16%;
+  width: 66%;
+  text-align: center;
+  font-size: 16px;
+}
+svg.svg-inline--fa.fa-power-off.fa-w-16.dialogPower {
+  position: absolute;
+  color: #031d5e;
+  font-size: 42px;
+}
+button.dialogLogOutButton.btn.btn-primary {
+  position: absolute;
+  width: 0%;
+  left: 87%;
+  top: 36%;
+  background-color: white;
+  border-color: white;
+}
+p.forCancel {
+  position: absolute;
+  width: 90%;
+  text-align: center;
+  color: #092148;
+}
+b.cancelrequesttopDialog {
+  position: absolute;
+  top: 70%;
+  /* width: 100%; */
+  left: 39%;
+  text-decoration: underline;
+  color: #000035;
+}
+b.cancelrequesttopDialog:hover{
+  color: dodgerblue;
+}
+p.recentBooking {
+  position: absolute;
+  top: 82%;
+  /* width: 90%; */
+  left: 33%;
+  color: #000035;
+  font-size: 16px;
+}
+@media screen and (max-width:1920px) and (min-width:1080px) {
+  .seatBooking{
+    /* background-image: url(../../images/image.jpg); */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    }
+  
+  .sidebarDiv {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    right: 80%;
+    }
+    label.notificationlabel {
+      font-size: small;
+  }
+  .dateReserveDiv{
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    height: 76%;
+  }
+  img.foodimage {
+    width: 100%;
+    height: 100%;
+    filter: blur(4px);
+  }
+  .bookedDatesdiv{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 76%;
+    top: 10%;
+  }
+  .colorNotificationDiv{
+    position: absolute;
+    top: 90%;
+    left: 29%;
+    width: 48%;
+    height: 7%;
+  }
+  .headerDivForCalendar{
+    position: absolute;
+    width: 85%;
+    height: 13%;
+  }
+  .calendarDiv{
+    /* background-color: brown; */
+    position: absolute;
+    width: 85%;
+    height: 87%;
+    top: 13%;
+  }
+  /* .rmdp-header {
+    font-size: 14px;
+    height: 38px;
+    line-height: 37px;
+    margin-top: 5px;
+    width: 108% !important;
+  } */
+  .calendar {
+    /* background-color: aliceblue; */
+    position: absolute;
+    width: 60%;
+    top:10%;
+    height: 80%;
+    left: 20%;
+    right:20%
+  }
+  .saveButton{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 25%;
+  }
+  .buttondiv {
+    height: 65%;
+    width: 60%;
+    position: absolute;
+    left: 13%;
+  }
+  .rmdp-wrapper.rmdp-shadow.calendarWidth {
+    width: 100%;
+    box-shadow: 0 0 52px #678db3;
+    /* height: 75%;
+    padding: 11%; */
+  }
+  /* .rmdp-week, .rmdp-ym {
+    display: flex;
+    justify-content: space-between;
+    width: 108% !important;
+    height: 5vh !important;
+  }
+  .rmdp-top-class {
+    height: 40vh !important;
+  } */
+  
+  .saveViewButton{
+    position: absolute;
+    background-color: dodgerblue;
+    width: 100%;
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 98%;
+   
+  }
+  .reservationSave {
+    position: absolute;
+    width: 16% !important;
+    left: 64%;
+    top: 105%;
+    border-color: dodgerblue !important;
+    border-radius: 18% !important;
+}
+/* .selectAll {
+  position: absolute;
+  width: 18% !important;
+  left: 59%;
+  top: 88.5%;
+  border-color: dodgerblue !important;
+  border-radius: 8% !important;
+  padding-left: 1% !important;
+  height: 7%;
+} */
+  button.Ok.btn.btn-primary {
+    width: 45px;
+    height: 34px;
+    margin-left: 205px;
+    padding-left: 9px;
+    padding-top: 5px;
+  }
+  
+  .haederdivTag{
+    position: absolute;
+    text-align: center;
+    width:100%;
+     
+    font-size: xx-large;
+  }
+  .headerDivForTable{
+    position: absolute;
+    width: 100%;
+    height: 13%;  
+  }
+  .tableHaederdivTag{
+    position: absolute;
+    text-align: center;
+    left: 21%;
+    font-size: xx-large;
+  }
+  .foodTable {
+    position: absolute;
+      top: 20%;
+      /* left: 9%; */
+      width: 100%;
+      height: 65%;
+  }
+  .autosavedmsgDiv{
+    position: absolute;
+    top: 87%;
+      
+        width: 100%;
+        height: 12%;
+  }
+  h4.autosavemsg {
+    text-align: center;
+    color: darkslategray;
+  }
+  input.redcolor {
+    background-color: red;
+    width: 2%;
+    height: 27%;
+    border-radius: 61%;
+    border-color: red;
+  }
+  thead.tableHeader {
+    background-color: dodgerblue;
+  }
+  .bookingDiv {
+    position: absolute;
+    width: 80%;
+    top: 8%;
+    left: 20%;
+    height: 89%;
+  }
+  input.greencolor {
+    background-color: green;
+    width: 2%;
+    height: 27%;
+    border-radius: 61%;
+    border-color: green;
+  }
+  input.bluecolor {
+    background-color: dodgerblue;
+    width: 2%;
+    height: 27%;
+    border-radius: 61%;
+    border-color: dodgerblue;
+  }
+  
+  h5.roundredcolor {
+    color: red;
+    background-color: red;
+    width: 3%;
+    border-radius: 81%;
+    height: 12%;
+    /* border-color: red; */
+  }
+  svg.svg-inline--fa.fa-thumbs-up.thumbsup {
+    color: limegreen;
+  }
+  .MuiModal-root.MuiDialog-root.dialogcssTime.css-zw3mfo-MuiModal-root-MuiDialog-root {
+    height: 50vh;
+    top: 25%;
+  }
+  /* h4.Blockedmsg {
+    position: relative;
+    top: 13%;
+    left: 1%;
+    width: 100%;
+    font-size: 19px;
+  } */
+  .blockedmsgdiv {
+    /* background-color: #bebbd7; */
+    width: 100%;
+    height: 27vh;
+    margin-top: -4%;
+  }
+  
+  button.blockedOk.btn.btn-primary {
+    position: absolute;
+    cursor: pointer;
+    width: 13%;
+    left: 41%;
+    height: 19%;
+    top: 63%;
+  }
+  
+  .rmdp-week, .rmdp-ym {
+    display: flex;
+    justify-content: space-between;
+    width: 157%;
+    height: 4vh;
+}
+.rmdp-top-class {
+  height: 33vh;
+}
+.rmdp-header {
+  font-size: 14px;
+  height: 38px;
+  line-height: 37px;
+  margin-top: 5px;
+  width: 150%;
+}
+table.userfoodTable.table.table-striped {
+  position: absolute;
+  left: 29%;
+  width: 50%;
+  height: 36vh!important;
+  overflow-y: scroll !important;
+  display: block !important;
+}
+.tableHaederdivTag {
+  position: absolute;
+  text-align: center;
+  left: 32%;
+  font-size: xx-large;
+}
+}
+@media screen and (max-width:1366px) and (min-width:768px) {
+  button.expandGridData.btn.btn-primary {
+    position: absolute;
+    width: 5%;
+    height: 45%;
+    top: 3%;
+    left: 81%;
+    padding-top: 1px;
+    padding-left: 1%;
+   
+}
+  .seatBooking{
+position: relative;
+width: 100%;
+height: 100vh;
+}
+
+.sidebarDiv {
+position: absolute;
+width: 20%;
+height: 100%;
+right: 80%;
+}
+label.notificationlabel {
+  font-size: small;
+}
+.dateReserveDiv{
+position: absolute;
+top: 10%;
+width: 50%;
+height: 76%;
+}
+img.foodimage {
+width: 100%;
+height: 100%;
+filter: blur(4px);
+}
+.bookedDatesdiv{
+position: absolute;
+left: 50%;
+width: 50%;
+height: 76%;
+top: 10%;
+}
+.colorNotificationDiv{
+position: absolute;
+top: 90%;
+left: 29%;
+width: 48%;
+height: 7%;
+}
+.headerDivForCalendar{
+position: absolute;
+width: 85%;
+height: 13%;
+}
+.calendarDiv{
+/* background-color: brown; */
+position: absolute;
+width: 85%;
+height: 87%;
+top: 13%;
+}
+.rmdp-header {
+font-size: 14px;
+height: 38px;
+line-height: 37px;
+margin-top: 5px;
+width: 108% !important;
+}
+.calendar {
+/* background-color: aliceblue; */
+position: absolute;
+width: 60%;
+top:10%;
+height: 80%;
+left: 20%;
+right:20%
+}
+.saveButton{
+position: absolute;
+top: 70%;
+width: 100%;
+height: 25%;
+}
+.buttondiv {
+height: 65%;
+width: 60%;
+position: absolute;
+left: 13%;
+}
+.rmdp-wrapper.rmdp-shadow.calendarWidth {
+width: 100%;
+box-shadow: 0 0 52px #678db3;
+/* height: 75%;
+padding: 11%; */
+}
+.rmdp-week, .rmdp-ym {
+display: flex;
+justify-content: space-between;
+width: 108% !important;
+height: 5vh !important;
+}
+.rmdp-top-class {
+height: 40vh !important;
+}
+
+.saveViewButton{
+position: absolute;
+background-color: dodgerblue;
+width: 100%;
+padding: 12px 20px;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+top: 98%;
+
+}
+.reservationSave {
+  position: absolute;
+  width: 16% !important;
+  left: 74%;
+  top: 101%;
+  border-color: dodgerblue !important;
+  border-radius: 18% !important;
+}
+.selectAll {
+  position: absolute;
+  width: 17% !important;
+  left: 50%;
+  top: 101%;
+  border-color: dodgerblue !important;
+  border-radius: 18% !important;
+  height: 19%;
+  padding-top: 11px !important;
+  padding-left: 13px !important;
+}
+button.Ok.btn.btn-primary {
+width: 45px;
+height: 34px;
+margin-left: 205px;
+padding-left: 9px;
+padding-top: 5px;
+}
+
+.haederdivTag{
+position: absolute;
+text-align: center;
+width:100%;
+ 
+font-size: xx-large;
+}
+.headerDivForTable{
+position: absolute;
+width: 100%;
+height: 13%;  
+}
+.tableHaederdivTag{
+position: absolute;
+text-align: center;
+left: 21%;
+font-size: xx-large;
+}
+.foodTable {
+position: absolute;
+  top: 20%;
+  /* left: 9%; */
+  width: 100%;
+  height: 65%;
+}
+.autosavedmsgDiv{
+position: absolute;
+top: 87%;
+  
+    width: 100%;
+    height: 12%;
+}
+h4.autosavemsg {
+text-align: center;
+color: darkslategray;
+}
+input.redcolor {
+background-color: red;
+width: 2%;
+height: 27%;
+border-radius: 61%;
+border-color: red;
+}
+thead.tableHeader {
+background-color: dodgerblue;
+}
+.bookingDiv {
+position: absolute;
+width: 80%;
+top: 8%;
+left: 20%;
+height: 89%;
+}
+input.greencolor {
+background-color: green;
+width: 2%;
+height: 27%;
+border-radius: 61%;
+border-color: green;
+}
+input.bluecolor {
+background-color: dodgerblue;
+width: 2%;
+height: 27%;
+border-radius: 61%;
+border-color: dodgerblue;
+}
+table.userfoodTable.table.table-striped {
+position: absolute;
+left: 20% !important;
+width: 71% !important;
+height: 45vh !important;
+overflow-y: scroll !important;
+  display: block !important;
+}
+h5.roundredcolor {
+color: red;
+background-color: red;
+width: 3%;
+border-radius: 81%;
+height: 12%;
+/* border-color: red; */
+}
+svg.svg-inline--fa.fa-thumbs-up.thumbsup {
+color: limegreen;
+}
+.MuiModal-root.MuiDialog-root.dialogcssTime.css-zw3mfo-MuiModal-root-MuiDialog-root {
+/* background-image: url("../../images/bgImage.png"); */
+  height: 61vh;
+  top: 25%;
+}
+/* h4.Blockedmsg {
+position: relative;
+top: 13%;
+left: 1%;
+width: 100%;
+font-size: 19px;
+} */
+.blockedmsgdiv {
+/* background-color: #bebbd7; */
+width: 100%;
+height: 27vh;
+margin-top: -4%;
+}
+
+button.blockedOk.btn.btn-primary {
+position: absolute;
+cursor: pointer;
+width: 13%;
+left: 41%;
+height: 19%;
+top: 63%;
+}
+
+
+}
+@media screen and (max-width:1280px) and (min-width:800px) {
+  .calendar {
+    position: absolute;
+    width: 65%;
+    top: 10%;
+    height: 80%;
+    left: 20%;
+    right: 20%;
+}
+} 
+ @media screen and (max-width:1110px) and (min-width:800px) {
+  .calendar {
+    position: absolute;
+    width: 75%;
+    top: 8%;
+    height: 50%;
+    left: 15%;
+    right: 20%;
+}
+.rmdp-header {
+  font-size: 14px;
+  height: 38px;
+  line-height: 37px;
+  margin-top: 5px;
+  width: 88% !important;
+}
+.rmdp-week, .rmdp-ym {
+  display: flex;
+  justify-content: space-between;
+  width: 87%  !important;
+  height: 3vh !important;
+}
+table.userfoodTable.table.table-striped {
+  position: absolute;
+  left: 0% !important;
+  width: 100% !important;
+  height: 46vh !important;
+  overflow-y: scroll !important;
+  display: block !important;
+}
+.rmdp-wrapper.rmdp-shadow.calendarWidth {
+  height: 25vh;
+  
+}
+input.reservationSave {
+  position: absolute;
+  width: 21% !important;
+  top: 22%;
+  left: 12%;
+}
+.tableHaederdivTag {
+  position: absolute;
+  text-align: center;
+  left: 21%;
+  font-size: 1.5rem;
+}
+label.haederdivTag {
+  font-size: 1.5rem;
+}
+p.headertag1 {
+  font-size: 1.5rem;
+}
+.colorNotificationDiv {
+  position: absolute;
+  top: 76%;
+  left: 16%;
+  width: 125%;
+  height: 7%;
+}
+.foodMenuDiv {
+  position: absolute;
+  top: 31% !important;
+  left: 2%;
+  width: 52%;
+  height: 8%;
+  border-radius: 16px;
+  box-shadow: white;
+}
+img.foodImg {
+  width: 34% !important;
+  margin-top: -6% !important;
+  margin-left: 56%;
+  border-radius: 57%;
+}
+b.foodMenuLab {
+  position: absolute;
+  top: -10% !important;
+  left: 14%;
+  font-size: 96% !important;
+  color: white;
+}
+}
+@media screen and (max-width:1024px) and (min-width:768px) {
+  .dateReserveDiv {
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    height: 46%;
+}
+.bookedDatesdiv {
+  position: absolute;
+  left: 14%;
+  width: 70%;
+  height: 21%;
+  top: 46%;
+}
+.calendarDiv {
+  /* background-color: brown; */
+  position: absolute;
+    width: 80%;
+    height: 117%;
+    top: 0%;
+    left: 2%;
+}
+.headerDivForCalendar {
+  position: absolute;
+  width: 85%;
+  height: 7% !important;
+}
+.calendar {
+  /* background-color: aliceblue; */
+  position: absolute;
+  width: 56%;
+  top: 8%;
+  height: 62%;
+  left: 22%;
+  right: 20%;
+}
+.rmdp-header {
+  font-size: 19px;
+  height: 38px;
+  line-height: 37px;
+  margin-top: 5px;
+  width: 108% !important;
+}
+.rmdp-week, .rmdp-ym {
+    display: flex;
+    justify-content: space-between;
+    width: 110% !important;
+    height: 4vh !important;
+}
+table.userfoodTable.table.table-striped {
+  position: absolute;
+  left: 0% !important;
+  width: 100% !important;
+  height: 26vh !important;
+  overflow-y: scroll !important;
+  display: block !important;
+}
+.rmdp-wrapper.rmdp-shadow.calendarWidth {
+  height: 30vh;
+  
+}
+input.reservationSave {
+  position: absolute;
+  width: 13% !important;
+  height: 30%;
+  top: 226%;
+  left: 61%;
+  font-size: 0.75rem;
+  padding-left: 16px !important;
+  padding-top: 10px;
+}
+input.selectAll {
+  position: absolute;
+  top: 225%;
+  left: 41%;
+  height: 32%;
+  padding-top: 7px !important;
+  padding-left: 5px !important;
+}
+.tableHaederdivTag {
+  position: absolute;
+  text-align: center;
+  left: 21%;
+  font-size: 1.5rem;
+}
+label.haederdivTag {
+  font-size: 1.5rem;
+}
+p.headertag1 {
+  font-size: 1.5rem;
+  left:9%
+}
+.colorNotificationDiv {
+  position: absolute;
+  top: 76%;
+  left: 16%;
+  width: 125%;
+  height: 7%;
+}
+.foodMenuDiv {
+  position: absolute;
+  top: 31% !important;
+  left: 2%;
+  width: 52%;
+  height: 8%;
+  border-radius: 16px;
+  box-shadow: white;
+}
+img.foodImg {
+  width: 34% !important;
+  margin-top: -6% !important;
+  margin-left: 56%;
+  border-radius: 57%;
+}
+b.foodMenuLab {
+  position: absolute;
+  top: -10% !important;
+  left: 14%;
+  font-size: 96% !important;
+  color: white;
+}
+.colorNotificationDiv {
+  position: absolute;
+  top: 87%;
+  left: 9%;
+  width: 89%;
+  height: 5%;
+}
+/* .colorNotificationDiv {
+  position: absolute;
+  top: 12%;
+  left: 63%;
+  width: 28%;
+  height: 5%;
+}
+input.redcolor {
+  background-color: red;
+  width: 4%;
+  height: 18%;
+  border-radius: 61%;
+  border-color: red;
+}
+input.greencolor {
+  background-color: green;
+  width: 4%;
+  height: 17%;
+  border-radius: 61%;
+  border-color: green;
+} */
+}
+@media screen and (max-width:767px) and (min-width:350px) {
+  /* p.headertag1 {
+    display: block !important;
+}
+p.headertag2 {
+  display: block !important;
+} */
+thead.expandTableHeader {
+  background-color: #040D39 !important;
+}
+.foodMenuDiv {
+  display: block !important;
+}
+  .expandFoodTable {
+    position: absolute;
+    top: 19%;
+    width: 100%;
+}
+
+  button.expandGridData.btn.btn-primary {
+    position: absolute;
+    width: 12%;
+    height: 74%;
+    top: -18%;
+    left: 95%;
+    padding-top: 0px;
+    padding-left: 3%;
+    background-color: #040D39;
+    border-color: #040D39;
+    
+}
+
+
+   
+
+  .bookingDiv {
+    position: absolute;
+    width: 100%;
+    height: 86%;
+    top: 21%;
+}
+.dateReserveDiv {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+}
+.calendarDiv {
+  position: absolute;
+  width: 66%;
+  top: 23%;
+  left: 3.5%;
+}
+.calendar {
+  position: absolute;
+  width: 100%;
+}
+.headerDivForTable {
+  position: absolute;
+  top: 7%;
+  left: 21%;
+}
+/* input.saveViewButton {
+  position: absolute;
+  width: 100%;
+  background-color: dodgerblue;
+  border-block: none;
+  top: 91%;
+  border-radius: 8px;
+  border-color: dodgerblue;
+} */
+.bookedDatesdiv {
+  position: absolute;
+    width: 100%;
+    top: 83%;
+    height: 99vh !important;
+}
+.foodTable {
+  position: absolute;
+  width: 100%;
+  top: 9%;
+  height: 23vh !important;
+}
+input.saveViewButton {
+  position: absolute;
+  width: 140%;
+  background-color: #040D39;
+  border-block: none;
+  top: 97%;
+  border-radius: 8px;
+  border-color:#040D39;
+  color: aliceblue;
+  height: 14%;
+}
+.colorNotificationDiv {
+  position: absolute;
+  width: 113% !important;
+  top: 79%;
+  left: 2%;
+  /* height: 1%; */
+  font-size: 13px;
+  /* font-weight: bold; */
+}
+input.redcolor {
+  width: 2%;
+  height: 1vh;
+  border-radius: 12px;
+  background-color: red;
+  border-block: none;
+  border-color: red;
+  box-shadow: red;
+}
+input.greencolor {
+  width: 2%;
+  height: 1vh;
+  border-radius: 12px;
+  background-color: green;
+  border-block: none;
+  border-color: green;
+  box-shadow: green;
+}
+input.bluecolor {
+  width: 2%;
+  height: 1vh;
+  border-radius: 12px;
+  background-color: dodgerblue;
+  border-block: none;
+  border-color: dodgerblue;
+  box-shadow: dodgerblue;
+}
+table.userfoodTable.table.table-striped {
+  position: relative;
+    top: 15%;
+    width: 81% !important;
+    scroll-margin-right: inherit;
+    height: 381px !important;
+    overflow-y: scroll !important;
+    display: block;
+    left: 10%;
+}
+thead.tableHeader {
+  background-color: #040D39;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+.rmdp-week {
+  width: 154%;
+  height: 19%;
+  /* font-size: 15px !important; */
+}
+label.haederdivTag {
+  font-size: 22px;
+  font-weight: bold;
+  color: #040D39;
+}
+.headerDivForCalendar {
+  position: absolute;
+  top: 8%;
+  left: 20%;
+}
+label.tableHaederdivTag {
+  font-size: 22px;
+  font-weight: bold;
+  color: #040D39;
+}
+.rmdp-wrapper.rmdp-shadow.calendarWidth {
+  width: 140%;
+  height: 41vh;
+}
+.rmdp-header {
+  width: 151%;
+}
+td.datefont {
+  font-size: 9px;
+  font-weight: bold;
+}
+input.reservationSave {
+  position: absolute;
+  left: 8%;
+  top: 285%;
+  background-color: #040D39;
+  border-color: #040D39;
+  border-radius: 10px;
+  width: 79%;
+  color: aliceblue;
+  height: 28%;
+  padding-top: 2%;
+}
+.selectAll{
+  position: absolute;
+  left: 48%;
+  top: 285%;
+  background-color: #040D39 !important;
+  border-color: #040D39 !important;
+  border-radius: 10px !important;
+  width: 38% !important;
+  color: aliceblue;
+}
+label.notificationlabel {
+  font-size: 13px;
+    min-width: 105px;
+    color: #040D39
+}
+
+}
+
+

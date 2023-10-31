@@ -1,0 +1,172 @@
+@media screen and (max-width:1366px) and (min-width:600px){
+
+    @font-face {
+        font-family: cfont;
+        src: url('../../../Font/CustomFont.ttf');
+      }
+       *{
+          font-family: cfont;
+        }
+    .BranchDiv {
+        margin-top: -40%;
+        margin-left: 39%;
+        background-color: #EEF1F3;
+        width: 57%;
+        padding-top: 56px;
+        height: 489px;
+    }
+    label.avbDivision {
+        margin-left: 7%;
+    }
+    .divisionMainDiv {
+        background-color: #EEF1F3;
+        width: 276%;
+        margin-left: -184%;
+        height: 475px;
+        overflow-y: hidden;
+        padding-top: 0%;
+    }
+
+    .componentDiv {
+        margin-left: 185px;
+        margin-top: 94px;
+        background-color: #EEF1F3;
+        width: 234px;
+        height: 606px;
+        padding-top: 63px;
+        margin-top: 30px;
+        line-height: 52px;
+    }
+    
+    .addEmployeeDiv {
+        margin-top: -47%;
+        padding-left: 223px;
+    }
+    .addDivisionDiv {
+        margin-top: -38%;
+        overflow-x: hidden;
+        margin-left: 37%;
+    }
+    table.divisiontab.table.table-striped {
+        margin-left: 79%;
+        margin-top: -34px;
+        width: 19%;
+        height: 294px !important;
+    }
+    table.branchtab.table.table-striped {
+        margin-left: 42%;
+        margin-top: -4%;
+        width: 51%;
+        height: 248px !important;
+    }
+    label.avbDiv {
+        background-color: #EEF1F3;
+        margin-left: 64%;
+        margin-top: 2%;
+    }
+    .newDiv {
+        margin-top: -9%;
+    }
+    input.newDivInput {
+        margin-left: 135px;
+        padding-top: -21px;
+        width: 15%;
+    }
+    button.divisionSave.btn.btn-primary {
+        padding-top: -14%;
+        margin-left: 11px;
+        width: 63px;
+        padding-top: -17%;
+        margin-top: 234px;
+    }
+    .CompDivisionList.css-b62m3t-container {
+        margin-top: -41%;
+        margin-left: 59%;
+        width: 25%;
+    }
+   
+    .BrnchDivisionList.css-b62m3t-container {
+        width: 50%;
+        margin-top: -31px;
+        margin-left: 42%;
+    }
+    table.adminList.table.table-striped {
+        margin-top: -37px;
+        margin-left: 311px;
+        width: 57%;
+        height: -24px;
+        height: 317px !important;
+    }
+    label.avbBranch {
+        margin-top: 7%;
+        background-color: #EEF1F3;
+        padding-left: 44px;
+    }
+    .newBranchDiv {
+        margin-top: -61px;
+        margin-left: 0%;
+    }
+    button.branchSave.btn.btn-primary {
+        width: 11%;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    input.newBranchInput {
+        margin-left: 16%;
+        width: 40%;
+    }
+    .adminDiv {
+        background-color: #EEF1F3;
+        width: 99%;
+        height: 510px;
+        margin-top: 46px;
+        margin-left: -50px;
+    }
+    button.PasswordButton.btn.btn-primary.btn-sm {
+        width: 97%;
+        padding: 3px;
+    }
+    .passwordDiv {
+        margin-top: -53px;
+        margin-left: 4%;
+    }
+    input.passwordInput {
+        margin-left: 17%;
+        width: 32%;
+    }
+    button.resetPassword.btn.btn-primary {
+        width: 17%;
+        margin-top: 10%;
+        margin-left: 2%;
+        padding: 3px;
+    }
+    input.currentPassword {
+        width: 99%;
+    }
+    button.resetCancel.btn.btn-primary {
+        margin-left: 140px;
+        width: 116px;
+        margin-top: 30px;
+    }
+    button.resetConfirm.btn.btn-primary {
+        width: 116px;
+        margin-top: 27px;
+        margin-left: 6px;
+    }
+    h5.passwordSucess {
+        margin-top: -25px;
+        margin-left: 59px;
+        color: green;
+    }
+    h5.passwordError {
+        margin-top: -34px;
+        color: red;
+    }
+    .NameDiv {
+        margin-top: 26px;
+        margin-left: 4%;
+    }
+    label.nameLabel {
+        margin-left: 17%;
+    }
+}

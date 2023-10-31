@@ -1,0 +1,250 @@
+.userComponentParentDiv {
+  /* background-color: darkolivegreen; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.userComponentCount {
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  width: 10%;
+  height: 21%;
+}
+label.userComponentEmpCountLab {
+  position: absolute;
+  top: 56%;
+  font-size: 81%;
+  left: 16%;
+}
+.col-md-2 {
+  flex: 0 0 auto;
+ width: 10% !important;
+}
+.col-md-3 {
+ 
+ width: 12% !important;
+}
+
+
+@media screen and (max-width: 1920px) and (min-width:1080px){
+  .userComponentSearchDiv {
+    position: absolute;
+    background-color: #EEF1F3;
+    top: 10%;
+    left: 74%;
+    width: 25%;
+    height: 20%;
+}
+.userComponentChildSearchDiv {
+  position: absolute;
+  /* background-color: deepskyblue; */
+  top: 7%;
+  left: 3%;
+  width: 97%;
+}
+input.userSearchInput {
+  width: 67%;
+  margin-top: -76%;
+  margin-left: 20%;
+  height: 4vh;
+}
+h6.searchLabel {
+  margin-top: 6%;
+  font-weight: bold;
+  margin-left: 0%;
+}
+.employeeType.css-b62m3t-container {
+  width: 68%;
+  left: 28%;
+  top: 20%;
+  position: absolute;
+}
+.eventType.css-b62m3t-container {
+  width: 68%;
+  left: 28%;
+  top: 43%;
+  position: absolute;
+}
+.htag {
+  flex: 1.5;
+}
+input.min-exp {
+  width: 50%;
+  margin-left: -94px;
+  border-color: azure;
+  border-radius: 6px;
+}
+input.max-exp {
+  width: 50%;
+  border-color: azure;
+  border-radius: 6px;
+}
+h1.userComponentEmpCount {
+  position: absolute;
+  left: 24%;
+  top: 20%;
+}
+.userComponentGrid {
+  position: absolute;
+  /* background-color: peachpuff; */
+  top: 30%;
+  left: 16%;
+  width: 84%;
+  height: 57%;
+}
+table.userComponentMainTable.table.table-striped {
+  position: absolute;
+  display: block;
+  height: -43vh;
+  height: 59vh !important;
+  overflow-y: scroll;
+}
+.userComponentPagination {
+  position: absolute;
+  top: 108%;
+  left: 1%;
+}
+
+}
+
+@media screen and (max-width:1366px) and (min-width:768px) {
+  .userComponentSearchDiv {
+    position: absolute;
+    background-color: #EEF1F3;
+    top: 10%;
+    left: 70%;
+    width: 29%;
+    height: 21%;
+  }
+  .employeeType.css-b62m3t-container {
+    width: 66%;
+    left: 34%;
+    top: 61%;
+}
+  input.userSearchInput {
+    width: 65%;
+    margin-top: -76%;
+    margin-left: 24%;
+    height: 6vh;
+  }
+  .employeeType.css-b62m3t-container {
+    width: 65%;
+    left: 34%;
+    top: 62%;
+}
+  h6.searchLabel {
+    margin-top: 8%;
+    font-weight: bold;
+    margin-left: 0%;
+}
+h1.userComponentEmpCount {
+  position: absolute;
+  left: 27%;
+  top: 20%;
+}
+  .userComponentGrid {
+    position: absolute;
+    /* background-color: peachpuff; */
+    top: 40%;
+    left: 16%;
+    width: 84%;
+    height: 57%;
+  }
+  table.userComponentMainTable.table.table-striped {
+    display: block;
+    position: absolute;
+    height: -43vh;
+    height: 49vh !important;
+    overflow-y: scroll;
+  }
+  .userComponentPagination {
+    position: absolute;
+    top: 88%;
+    left: 1%;
+  }
+  
+}
+@media screen and (max-width: 1280px) and (min-width:800px){
+  input.userSearchInput {
+    width: 62%;
+    margin-top: -76%;
+    margin-left: 24%;
+    height: 5vh;
+}
+.employeeType.css-b62m3t-container {
+  width: 63%;
+  left: 34%;
+  top: 61%;
+}
+table.userComponentMainTable.table.table-striped {
+  display: block;
+  position: absolute;
+  height: -43vh;
+  height: 51vh !important;
+  overflow-y: scroll;
+}
+
+}
+
+@media screen and (max-width: 1024px) and (min-width:768px){
+
+  table.userComponentMainTable.table.table-striped {
+    display: block;
+    position: absolute;
+    height: -43vh;
+    height: 54vh !important;
+    overflow-y: scroll;
+  }
+  .userComponentChildSearchDiv {
+    position: absolute;
+    /* background-color: deepskyblue; */
+    top: 22%;
+    left: 3%;
+    width: 97%;
+}
+  .userComponentSearchDiv {
+    position: absolute;
+    background-color: #EEF1F3;
+    top: 10%;
+    left: 40%;
+    width: 53%;
+    height: 19%;
+}
+input.userSearchInput {
+  width: 65%;
+  margin-top: -76%;
+  margin-left: 24%;
+  height: 5vh;
+}
+h1.userComponentEmpCount {
+    position: absolute;
+    left: 38%;
+    top: 20%;
+}
+.userComponentGrid {
+  position: absolute;
+  /* background-color: peachpuff; */
+  top: 35%;
+  left: 16%;
+  width: 84%;
+  height: 57%;
+}
+table.userComponentMainTable.table.table-striped {
+  display: block;
+  position: absolute;
+  height: -43vh;
+  height: 52vh !important;
+}
+.userComponentPagination {
+  position: absolute;
+  top: 95%;
+  left: 1%;
+}
+.employeeType.css-b62m3t-container {
+  width: 66%;
+  left: 34%;
+  margin-top: -8%;
+}
+}

@@ -1,0 +1,325 @@
+
+        @font-face {
+            font-family: cfont;
+            src: url('../../../Font/CustomFont.ttf');
+          }
+           *{
+              font-family: cfont;
+            }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            
+            font-family: 'Josefin Sans', sans-serif,;
+          }
+          
+          
+          .Userwrapper{
+            display: flex;
+            position: relative;
+            
+          }
+          .headertag1{
+            font-size: 2em;
+            margin-left: 16px;
+            
+          }
+          .Userwrapper .Usersidebar {
+            position: absolute;
+            width: 100%;
+            top: 8vh;
+            height: 89vh;   
+            background: #4b4276;
+  
+  }      
+       
+        
+         
+          
+        .Userwrapper .Usersidebar h1{
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 30px;
+          }
+          
+          .Userwrapper .Usersidebar ul li{
+            padding: 15px;
+            border-bottom: 1px solid #bdb8d7;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            border-top: 1px solid rgba(255,255,255,0.05);
+          }    
+          
+          .Userwrapper .Usersidebar ul li a{
+            color: #bdb8d7;
+            display: block;
+          }
+          
+          .Userwrapper .Usersidebar ul li:hover{
+            background-color: #594f8d;
+          }
+              
+          .Userwrapper .Usersidebar ul li:hover a{
+            color: #fff;
+          }
+            
+          h1{
+          text-align:center;
+          
+          }
+          
+          
+          button.editVaccineDetails.btn.btn-primary {
+            width: 21%;
+            margin-left: 69%;
+            margin-top: -1%;
+            background-color: #4b4276;
+            border-color: #4b4276;
+        }
+        svg.svg-inline--fa.fa-edit.editVaccine {
+          width: 82%;
+          height: 16%;
+          color: orange;
+      }
+      .foodMenuDiv {
+        position: absolute;
+        top: 44%;
+        left: 2%;
+        width: 52%;
+        height: 8%;
+        border-radius: 16px;
+        box-shadow: white;
+    }
+    img.foodImg {
+      width: 35%;
+      margin-top: 5%;
+      margin-left: 56%;
+      border-radius: 57%;
+  }
+  b.foodMenuLab {
+    position: absolute;
+    top: 21%;
+    left: 14%;
+    font-size: 149%;
+    color: white;
+}
+@media screen and (max-width:1920px) and (min-width:1080px){
+  @font-face {
+    font-family: cfont;
+    src: url('../../../Font/CustomFont.ttf');
+  }
+   *{
+      font-family: cfont;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+    font-family: 'Josefin Sans', sans-serif,;
+  }
+  
+  
+  .Userwrapper{
+    display: flex;
+    position: relative;
+    
+  }
+  .headertag1{
+    font-size: 2em;
+    margin-left: 16px;
+    
+  }
+  
+
+
+ 
+  
+.Userwrapper .Usersidebar h1{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .Userwrapper .Usersidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }    
+  
+  .Userwrapper .Usersidebar ul li a{
+    color: #bdb8d7;
+    display: block;
+  }
+  
+  .Userwrapper .Usersidebar ul li:hover{
+    background-color: #594f8d;
+  }
+      
+  .Userwrapper .Usersidebar ul li:hover a{
+    color: #fff;
+  }
+    
+  h1{
+  text-align:center;
+  
+  }
+  
+  
+  button.editVaccineDetails.btn.btn-primary {
+    width: 21%;
+    margin-left: 69%;
+    margin-top: -1%;
+    background-color: #4b4276;
+    border-color: #4b4276;
+}
+svg.svg-inline--fa.fa-edit.editVaccine {
+  width: 82%;
+  height: 16%;
+  color: orange;
+}
+.foodMenuDiv {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  width: 57%;
+  height: 35%;
+  border-radius: 16px;
+}
+b.feedback {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+  font-size: 149%;
+  color: white;
+  cursor: pointer;
+  font-weight: 100;
+}
+b.cancelrequest {
+  position: absolute;
+  top: 59%;
+  left: 14%;
+  font-size: 149%;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 100;
+}
+img.foodImg {
+width: 35%;
+margin-top: 5%;
+margin-left: 56%;
+border-radius: 57%;
+}
+b.foodMenuLab {
+  position: absolute;
+  top: 21%;
+  left: 14%;
+  font-size: 149%;
+  color: white;
+  cursor: pointer;
+  font-weight: 100;
+}
+
+  .Userwrapper .Usersidebar {
+    position: absolute;
+    width: 100%;
+    top: 8vh;
+    height: 90vh;
+    background: #4b4276;
+}
+.headertag1 {
+  font-size: 2em;
+  margin-left: 16px;
+  margin-top: 7%;
+}
+.headertag2{
+  font-size: 2em;
+  margin-left: 16px;
+  margin-top: 7%;
+}
+}
+@media screen and (max-width:799px) and (min-width:350px) {
+  .logos {
+    width: 37%;
+    height: -1%;
+    position: absolute;
+    top: 0%;
+}
+  .Usersidebar {
+    position: relative;
+    width: 100% !important;
+    height: 6vh !important;
+}
+p.headertag1 {
+  font-size: 17px;
+    color: #040D39;
+    position: absolute;
+    left: 1%;
+    font-weight: bold;
+    top: 28%;
+}
+p.headertag2 {
+  position: absolute;
+  font-size: 19px;
+  color: #040D39;
+  top: 84%;
+  left: 5%;
+  font-weight: bold;
+}
+.foodMenuDiv {
+  position: absolute;
+  top: 2%;
+  left: 37%;
+  width: 49%;
+  height: 4%;
+  border-radius: 16px;
+  box-shadow: white;
+  /* background-color: aliceblue; */
+}
+img.foodImg {
+  width: 46%;
+  margin-top: 5%;
+  margin-left: 56%;
+  border-radius: 57%;
+}
+b.foodMenuLab {
+  position: absolute;
+  top: 24%;
+  left: 67%;
+  font-size: 77%;
+  font-weight: 200;
+  color: #ffffff;
+}
+b.feedback {
+  position: absolute;
+  top: 24%;
+  left: 42%;
+  font-size: 77%;
+  font-weight: 200;
+  color:  #ffffff;
+}
+b.cancelrequest {
+  position: absolute;
+  top: 26%;
+  left: 26%;
+  font-size: 77%;
+  font-weight: 200;
+  color:  #ffffff;
+}
+.Userwrapper .Usersidebar {
+  position: absolute;
+  width: 100%;
+  top: 8vh;
+  height: 89vh;
+  background-color: white;
+}
+}
+      

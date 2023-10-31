@@ -1,0 +1,114 @@
+.seatUpdateParentDiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+.seatUpdateNavDiv {
+  position: absolute;
+  background-color: green;
+  height: 89%;
+  top: 8%;
+  width: 16%;
+}
+.seatUpdateDiv {
+  position: absolute;
+  /* background-color: purple; */
+  left: 16%;
+  top: 8%;
+  width: 84%;
+  height: 89%;
+}
+.seatUpdateCount {
+  position: absolute;
+  /* background-color: orange; */
+  top: 33%;
+  width: 39%;
+  left: 100%;
+  padding-left: 10%;
+}
+.seatUpdateForm {
+  position: absolute;
+  /* background-color: yellow; */
+  left: 4%;
+  width: 69%;
+  height: 100%;
+}
+input#dates {
+  width: 60%;
+}
+input#count {
+  width: 60%;
+}
+label.seatCountLab {
+  font-size: 15px;
+  margin-left: -3%;
+  padding-top: -14%;
+}
+label.seatCount {
+  font-size: 281%;
+  margin-top: 5%;
+}
+@media screen and (max-width: 1920px) and (min-width:1080px){
+  
+  .seatUpdateMain {
+      position: absolute;
+      background-color: #EEF1F3;
+      top: 17%;
+      left: 24%;
+      width: 55%;
+      height: 39%;
+  }
+  button.btn-repeat {
+      width: 60%;
+      margin-left: 25%;
+      margin-top: 5%;
+  }
+  
+}
+@media screen and (max-width: 1366px) and (min-width:768px){
+.seatUpdateMain {
+  position: absolute;
+  background-color: #EEF1F3;
+  top: 17%;
+  left: 18%;
+  width: 64%;
+  height: 54%;
+}
+button.btn-repeat {
+  width: 60%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+}
+@media screen and (max-width: 1280px) and (min-width:800px){
+  
+  button.btn-repeat {
+    width: 60%;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+}
+@media screen and (max-width: 1024px) and (min-width:768px){
+  .seatUpdateForm {
+    position: absolute;
+    /* background-color: yellow; */
+    left: 4%;
+    width: 69%;
+    height: 100%;
+    top: 7%;
+}
+  .seatUpdateMain {
+    position: absolute;
+    background-color: #EEF1F3;
+    top: 17%;
+    left: 8%;
+    width: 85%;
+    height: 51%;
+}
+button.btn-repeat {
+  width: 60%;
+  margin-left: 38%;
+  margin-top: 5%;
+}
+}

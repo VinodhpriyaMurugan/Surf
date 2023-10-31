@@ -1,0 +1,121 @@
+@font-face {
+    font-family: cfont;
+    src: url('../../../Font/CustomFont.ttf');
+  }
+   *{
+      font-family: cfont;
+    }
+.CountryList.css-b62m3t-container {
+    width: 59%;
+    left: 150px;
+    top: -19px;
+}
+.DivisionList{
+    width: 59%;
+    left: 150px;
+    top: -19px;
+}
+.updateEmployeeParent {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: #EEF1F3; */
+}
+img.empImg {
+    width: 10vw;
+    border-radius: 102px;
+}
+.image-disp {
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    left: 89vw;
+    /* background-color: aquamarine; */
+    top: 9vh;
+    z-index: 2;
+    border-radius: 10px;
+}
+@media screen and (max-width:1920px) and (min-width:1080px) {
+    .updateEmployeeDiv {
+        background-color: #EEF1F3;
+        top: 20%;
+        position: absolute;
+        left: 33%;
+        width: 51%;
+        height: 65%;
+    }
+    .updateEmployeeChildDiv {
+        position: absolute;
+        left: 20%;
+        width: 69%;
+        height: 82%;
+        top: 7%;
+    }
+
+}
+@media screen and (max-width:1366px) and (min-width:768px) {
+    .updateEmployeeParent {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .updateEmployeeDiv {
+        width: 66%;
+        left: 25%;
+        position: absolute;
+        background-color: #EEF1F3;
+        top: 13%;
+        height: 80%;
+    }
+    .updateEmployeeChildDiv {
+        position: absolute;
+        width: 75%;
+        left: 20%;
+        top: 1%;
+    }
+}
+@media screen and (max-width:1280px) and (min-width: 800px){
+    .updateEmployeeDiv {
+        background-color: #EEF1F3;
+        top: 17%;
+        position: absolute;
+        left: 25%;
+        width: 67%;
+        height: 75%;
+    }
+    .updateEmployeeChildDiv {
+        position: absolute;
+        left: 20%;
+        width: 79%;
+        height: 90%;
+        top: 7%;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .updateEmployeeDiv {
+        background-color: #EEF1F3;
+        top: 15%;
+        position: absolute;
+        left: 20%;
+        width: 75%;
+        height: 63%;
+    }
+    .updateEmployeeChildDiv {
+        position: absolute;
+        left: 14%;
+        width: 75%;
+        height: 90%;
+        top: 7%;
+    }
+    .DivisionList {
+        width: 63%;
+        left: 150px;
+        top: -19px;
+    }
+    .CountryList.css-b62m3t-container {
+        width: 63%;
+        left: 150px;
+        top: -19px;
+    }
+    
+}

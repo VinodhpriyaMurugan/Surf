@@ -1,0 +1,420 @@
+
+   
+    #roles
+    {
+      width:200px;
+    }
+   #dates{
+      width: 400px;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: 2px solid #ccc;
+      color:black;
+      box-sizing: border-box;
+      border-radius: 10px;
+      font-size:14px;
+      }
+    input[type="submit"]
+    {
+    width: 300px;
+    background-color: DodgerBlue;
+    color:white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight:bold;
+    font-size:16px;
+    }
+    .d-grid 
+    {
+      margin-bottom: 10px;
+    }
+  
+    .btn-primary
+    {
+      font-size: 18px;
+      width: 200px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+     margin-bottom: 10%;
+    }
+    
+    .btn-submitadduser{
+      width: 405px;
+      color:white;
+      background-color: dodgerblue;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 150px;
+    }
+  
+    .btn-submit{
+      width: 180px;
+      color:white;
+      background-color: dodgerblue;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 150px;
+    }
+    .btn-submited{
+      width: 180px;
+      color:white;
+      background-color: dodgerblue;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 50px;
+    }
+    label {
+      font-size:18px;
+      font-weight:bold;
+      text-align:left;
+      padding-right:20px;
+      display:inline-block;
+      min-width:150px;
+      
+    }
+   
+    
+   
+    .logo
+    {
+     margin-top: 20px;
+    }
+    .editDiv
+    {
+      flex-wrap: wrap;
+      padding-top: 106px;
+     }
+  .hi
+  {
+    background: #4b4276;
+    color:white;
+  }
+  i{
+    color: #d93025;
+  }
+  
+  #input.searchWrapper {
+    border:3px solid #ccc;
+    border-radius: 20px;
+   
+  }
+@media screen and (max-width:1920px) and (min-width:1366px)  {
+    #empid,#name,#emailid,#cc,#geo,#division,#count
+    {
+    width: 400px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    color:black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    font-size:14px;
+    }
+    #roles
+    {
+      width:200px;
+    }
+   #dates{
+      width: 400px;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: 2px solid #ccc;
+      color:black;
+      box-sizing: border-box;
+      border-radius: 10px;
+      font-size:14px;
+      }
+    input[type="submit"]
+    {
+        width: 300px;
+    background-color: DodgerBlue;
+    color:white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight:bold;
+    font-size:16px;
+}
+    .d-grid {
+        margin-bottom: 3%;
+    }
+  
+    .btn-primary
+    {
+        font-size: 18px;
+      width: 200px;
+      /* font-family: arial, sans-serif; */
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+     margin-bottom: 10%;
+    }
+    
+    .btn-submitadduser{
+      width: 405px;
+      color:white;
+      background-color: dodgerblue;
+      /* font-family: arial, sans-serif; */
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 150px;
+    }
+  
+    .btn-submit{
+      width: 180px;
+      color:white;
+      background-color: dodgerblue;
+      /* font-family: arial, sans-serif; */
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 150px;
+    }
+    .btn-submited{
+        width: 180px;
+      color:white;
+      background-color: dodgerblue;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 50px;
+    }
+    label {
+      font-size:18px;
+      font-weight:bold;
+      text-align:left;
+      padding-right:20px;
+      display:inline-block;
+      min-width:150px;
+      
+    }   
+    
+    .updateDiv {
+        position: absolute;
+        width: 60%;
+        top: 9%;
+        left: 20%;
+    }
+    .logo
+    {
+     margin-top: 20px;
+    }
+    .editDiv
+    {
+      flex-wrap: wrap;
+      padding-top: 106px;
+     }
+  .hi
+  {
+      background: #4b4276;
+      color:white;
+  }
+  i{
+      color: #d93025;
+  }
+  
+  #input.searchWrapper {
+      border:3px solid #ccc;
+    border-radius: 20px;
+   
+}
+  @font-face {
+    font-family: cfont;
+    src: url('../../../Font/CustomFont.ttf');
+  }
+   *{
+       font-family: cfont;
+    }
+    .addCountryList.css-b62m3t-container {
+      width: 71%;
+      left: 150px;
+      top: -19px;
+  }
+  .addDivisionList{
+      width: 71%;
+      left: 150px;
+      top: -19px;
+  
+    }
+  
+    
+}
+
+@media screen and (max-width:1366px) and (min-width:768px)  {
+
+
+
+    #empid,#name,#emailid,#cc,#geo,#division,#count
+      {
+      width: 400px;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: 2px solid #ccc;
+      color:black;
+      box-sizing: border-box;
+      border-radius: 10px;
+      
+      font-size:14px;
+      }
+      #roles
+      {
+        width:200px;
+      }
+     #dates{
+        width: 400px;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: 2px solid #ccc;
+        color:black;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size:14px;
+        }
+      input[type="submit"]
+      {
+      width: 300px;
+      background-color: DodgerBlue;
+      color:white;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 3px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-weight:bold;
+      font-size:16px;
+      }
+      .d-grid 
+      {
+        margin-bottom: 10px;
+      }
+    
+      .btn-primary
+      {
+        font-size: 18px;
+        width: 200px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+       margin-bottom: 10%;
+      }
+      
+      .btn-submitadduser{
+        width: 405px;
+        color:white;
+        background-color: dodgerblue;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 150px;
+      }
+    
+      .btn-submit{
+        width: 180px;
+        color:white;
+        background-color: dodgerblue;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 150px;
+      }
+      .btn-submited{
+        width: 180px;
+        color:white;
+        background-color: dodgerblue;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 50px;
+      }
+      label {
+        font-size:18px;
+        font-weight:bold;
+        text-align:left;
+        padding-right:20px;
+        display:inline-block;
+        min-width:150px;
+        
+      }
+     
+      
+      .updateDiv {
+        position: absolute;
+        top: 3%;
+        width: 72%;
+        left: 12%;
+    }
+      .logo
+      {
+       margin-top: 20px;
+      }
+      .editDiv
+      {
+        flex-wrap: wrap;
+        padding-top: 106px;
+       }
+    .hi
+    {
+      background: #4b4276;
+      color:white;
+    }
+    i{
+      color: #d93025;
+      /* font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;; */
+    }
+    
+    #input.searchWrapper {
+      border:3px solid #ccc;
+      border-radius: 20px;
+     
+    }
+    @font-face {
+      font-family: cfont;
+      src: url('../../../Font/CustomFont.ttf');
+    }
+     *{
+        font-family: cfont;
+      }
+      .addCountryList.css-b62m3t-container {
+        width: 71%;
+        left: 150px;
+        top: -19px;
+    }
+    .addDivisionList{
+        width: 71%;
+        left: 150px;
+        top: -19px;
+    
+    }
+  }

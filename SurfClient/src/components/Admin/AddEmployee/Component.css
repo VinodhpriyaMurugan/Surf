@@ -1,0 +1,816 @@
+.componentParent {
+    position: absolute;
+    WIDTH: 100%;
+    HEIGHT: 100%;
+}
+
+@media screen and (max-width:1920px) and (min-width:1080px) {
+    .addDivisionListUser{
+        width: 71%;
+        left: 150px;
+        top: -19px;
+    
+    }
+    .addCountryListUser.css-b62m3t-container {
+        width: 71%;
+        left: 150px;
+        top: -19px;
+    }
+   
+        .addEmployeeDiv {
+            position: absolute;
+            width: 49%;
+            background-color: #EEF1F3;
+            top: 15%;
+            height: 70%;
+            left: 39%;
+        }  
+    .newBranchDiv {
+        position: absolute;
+        top: 84% !important;
+        left: 4%;
+    }
+    input.newBranchInput {
+        position: absolute;
+        margin-left: 105%;
+        width: 180%;
+    }
+    button.branchSave.btn.btn-primary {
+        margin-left: 360%;
+        width: 44%;
+        margin-top: -15%;
+    }
+    .newBranchDiv {
+        position: absolute;
+        top: 74%;
+        left: 4%;
+    }
+    table.branchtab.table.table-striped {
+        position: absolute;
+        top: 20%;
+        left: 42%;
+        width: 50%;
+        overflow-y: scroll;
+        display: block;
+        height: 50%;
+    }
+    label.addBranchLabeltwo {
+        position: absolute;
+        left: 4%;
+        top: 22%;
+    }
+    .BrnchDivisionList.css-b62m3t-container {
+        width: 50%;
+        left: 42%;
+        top: 6%;
+        position: absolute;
+    }
+    label.addBranchLabel {
+        position: absolute;
+        top: 6%;
+        left: 4%;
+    }
+    .componentNavbar {
+        position: absolute;
+        background-color: #EEF1F3;
+        width: 15%;
+        top: 8%;
+        left: 16%;
+        height: 89%;
+        padding-top: 3%;
+    }
+    .componentDivision {
+        position: absolute;
+        background-color: #EEF1F3;
+        width: 50%;
+        top: 25%;
+        left: 40%;
+        height: 50%;
+    }
+    .addDivisionParent {
+        position: absolute;
+        left: 10%;
+        width: 80%;
+        height: 100%;
+    }
+    table.divisiontable.table.table-striped {
+        position: absolute;
+        left: 40%;
+        width: 55%;
+        display: block;
+        overflow-y: scroll;
+        height: 61%;
+        top: 9%;
+    }
+    label.addDivisionLabel {
+        position: absolute;
+        top: 10%;
+    }
+    .addDivisionSave {
+        position: absolute;
+        top: 75%;
+    }
+    label.addDivisionLabel {
+        position: absolute;
+        top: 10%;
+    }
+    input.addDivisionInput {
+        position: absolute;
+        left: 524%;
+        top: 22%;
+        width: 537%;
+    }
+    button.divisionSave.btn.btn-primary {
+        margin-left: 1067%;
+        width: 185%;
+    }
+    .componentBranch {
+        position: absolute;
+        background-color: #EEF1F3;
+        top: 25%;
+        width: 50%;
+        left: 40%;
+        height: 50%;
+    }
+    .componentAdmin {
+        position: absolute;
+        background-color: #EEF1F3;
+        left: 40%;
+        top: 25%;
+        width: 50%;
+        height: 60%;
+    }
+    .adminList.table.table-striped {
+        position: absolute;
+        width: 55%;
+        left: 40%;
+        top: 10%;
+        overflow-y: scroll;
+        display: block;
+        height: 48%;
+    }
+    label.adminLabel {
+        position: absolute;
+        top: 10%;
+        left: 6%;
+    }
+    .adminNameDiv {
+        position: absolute;
+        top: 68%;
+        left: 6%;
+    }
+    label.nameLabel {
+        position: absolute;
+        left: 221%;
+    }
+    .adminPasswordDiv {
+        position: absolute;
+        top: 75%;
+        left: 6%;
+    }
+    .adminPasswordDiv {
+        position: absolute;
+        top: 81%;
+        left: 6%;
+    }
+    input.passwordInput {
+        position: absolute;
+        left: 95%;
+        top: 0%;
+        width: 89%;
+    }
+    button.resetPassword.btn.btn-primary {
+        margin-left: 186%;
+        margin-top: -9%;
+    }
+    input.currentPassword {
+        position: absolute;
+        width: 89%;
+    }
+    button.resetConfirm.btn.btn-primary {
+        margin-top: 15%;
+    }
+    button.resetCancel.btn.btn-primary {
+        margin-top: 15%;
+    }
+    h5.passwordError {
+        color: red;
+    }
+    h5.passwordSucess {
+        color: green;
+        margin-left: 18%;
+    }
+   
+}
+@media screen and (max-width:1366px) and (min-width:768px){
+    button.resetPassword.btn.btn-primary {
+        margin-left: 175%;
+        margin-top: -11%;
+        width: 47%;
+    }
+    input.passwordInput {
+        position: absolute;
+        left: 86%;
+        top: 0%;
+        width: 87%;
+    }
+    label.nameLabel {
+        position: absolute;
+        left: 161%;
+    }
+    .componentBranch {
+        position: absolute;
+        background-color: #EEF1F3;
+        top: 25%;
+        width: 55%;
+        left: 40%;
+        height: 65%;
+    }
+    input.newBranchInput {
+        position: absolute;
+        margin-left: 66%;
+        width: 136%;
+    }
+    button.branchSave.btn.btn-primary {
+        margin-left: 278%;
+        width: 40%;
+        margin-top: -15%;
+    }
+    .componentNavbar {
+        position: absolute;
+    background-color: #EEF1F3;
+    width: 18%;
+    top: 8%;
+    left: 16%;
+    height: 89%;
+    padding-top: 3%;
+    }
+    .componentDivision {
+        position: absolute;
+        background-color: #EEF1F3;
+        width: 50%;
+        top: 20%;
+        left: 40%;
+        height: 65%;
+    }
+    table.divisiontable.table.table-striped {
+        position: absolute;
+        left: 40%;
+        width: 62%;
+        display: block;
+        overflow-y: scroll;
+        height: 68%;
+        top: 9%;
+    }
+    .addDivisionSave {
+        position: absolute;
+        top: 78%;
+    }
+    .addDivisionSave {
+        position: absolute;
+        top: 85%;
+    }
+    input.addDivisionInput {
+        position: absolute;
+        left: 370%;
+        top: 11%;
+        width: 436%;
+    }
+    button.divisionSave.btn.btn-primary {
+        margin-left: 819%;
+        width: 133%;
+        margin-top: 2%;
+    }
+    .addEmployeeDiv {
+        position: absolute;
+        background-color: #EEF1F3;
+        width: 61%;
+        top: 11%;
+        left: 37%;
+        height: 85%;
+    }
+    
+
+    #empid,#name,#emailid,#cc,#geo,#division,#count
+      {
+      width: 400px;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: 2px solid #ccc;
+      color:black;
+      box-sizing: border-box;
+      border-radius: 10px;
+      
+      font-size:14px;
+      }
+      #roles
+      {
+        width:200px;
+      }
+     #dates{
+        width: 400px;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: 2px solid #ccc;
+        color:black;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size:14px;
+        }
+      input[type="submit"]
+      {
+      width: 300px;
+      background-color: DodgerBlue;
+      color:white;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 3px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-weight:bold;
+      font-size:16px;
+      }
+      .d-grid 
+      {
+        margin-bottom: 10px;
+      }
+    
+      .btn-primary
+      {
+        font-size: 18px;
+        width: 200px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+       margin-bottom: 10%;
+      }
+      
+      .btn-submitadduser{
+        width: 405px;
+        color:white;
+        background-color: dodgerblue;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 150px;
+      }
+    
+      .btn-submit{
+        width: 180px;
+        color:white;
+        background-color: dodgerblue;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 150px;
+      }
+      .btn-submited{
+        width: 180px;
+        color:white;
+        background-color: dodgerblue;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 50px;
+      }
+      label {
+        font-size:18px;
+        font-weight:bold;
+        text-align:left;
+        padding-right:20px;
+        display:inline-block;
+        min-width:150px;
+        
+      }
+     
+      
+      .updateDiv {
+        position: absolute;
+        top: 3%;
+        width: 72%;
+        left: 12%;
+    }
+      .logo
+      {
+       margin-top: 20px;
+      }
+      .editDiv
+      {
+        flex-wrap: wrap;
+        padding-top: 106px;
+       }
+    .hi
+    {
+      background: #4b4276;
+      color:white;
+    }
+    i{
+      color: #d93025;
+      /* font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;; */
+    }
+    
+    #input.searchWrapper {
+      border:3px solid #ccc;
+      border-radius: 20px;
+     
+    }
+    @font-face {
+      font-family: cfont;
+      src: url('../../../Font/CustomFont.ttf');
+    }
+     *{
+        font-family: cfont;
+      }
+      .addCountryList.css-b62m3t-container {
+        width: 71%;
+        left: 150px;
+        top: -19px;
+    }
+    .addDivisionList{
+        width: 71%;
+        left: 150px;
+        top: -19px;
+    
+    }
+    .addDivisionListUser{
+        width: 66%;
+        left: 150px;
+        top: -19px;
+    
+    }
+    .addCountryListUser.css-b62m3t-container {
+        width: 66%;
+        left: 150px;
+        top: -19px;
+    }
+    .adminList.table.table-striped {
+        position: absolute;
+        width: 61%;
+        left: 38%;
+        top: 10%;
+        overflow-y: scroll;
+        display: block;
+        height: 56%;
+    }
+    .componentAdmin {
+        position: absolute;
+        background-color: #EEF1F3;
+        left: 40%;
+        top: 15%;
+        width: 50%;
+        height: 76%;
+    }
+}
+@media screen and (max-width:1280px) and (min-width: 800px){
+
+  
+    .componentDivision {
+        position: absolute;
+        background-color: #EEF1F3;
+        width: 54%;
+        top: 20%;
+        left: 39%;
+        height: 65%;
+    }
+    .addEmployeeDiv {
+        position: absolute;
+        background-color: #EEF1F3;
+        width: 60%;
+        top: 10%;
+        left: 37%;
+        height: 85%;
+    }
+    table.divisiontable.table.table-striped {
+        position: absolute;
+        left: 40%;
+        width: 68%;
+        display: block;
+        overflow-y: scroll;
+        top: 9%;
+    }
+    input.addDivisionInput {
+        position: absolute;
+        left: 372%;
+        top: 11%;
+        width: 504%;
+    }
+    button.divisionSave.btn.btn-primary {
+        margin-left: 877%;
+        width: 133%;
+        margin-top: 2%;
+    }
+    button.branchSave.btn.btn-primary {
+        margin-left: 269%;
+        width: 34%;
+        margin-top: -15%;
+    }
+    input.newBranchInput {
+        position: absolute;
+        margin-left: 57%;
+        width: 136%;
+    }
+    .addDivisionListUser {
+        width: 72%;
+        left: 150px;
+        top: -19px;
+    }
+    .addCountryListUser.css-b62m3t-container {
+        width: 72%;
+        left: 150px;
+        top: -19px;
+    }
+    button.PasswordButton.btn.btn-primary.btn-sm {
+        width: 98%;
+    }
+    .adminList.table.table-striped {
+        position: absolute;
+        width: 60%;
+        left: 36%;
+        top: 9%;
+        overflow-y: scroll;
+        display: block;
+        height: 55%;
+    }
+    label.nameLabel {
+        position: absolute;
+        left: 146%;
+    }
+    input.passwordInput {
+        position: absolute;
+        left: 76%;
+        top: 0%;
+        width: 85%;
+    }
+    button.resetPassword.btn.btn-primary {
+        margin-left: 163%;
+        margin-top: -11%;
+        width: 47%;
+    }
+    
+
+}
+
+@media screen and (max-width:1100px) and (min-width:768px) {
+    table.branchtab.table.table-striped {
+        position: absolute;
+        width: 120% !important;
+        overflow-y: scroll;
+        display: block;
+        height: 30vh;
+        left: 81%;
+        top: 32%;
+    }
+    input.passwordInput {
+        position: absolute;
+        left: 114%;
+        top: 0%;
+        width: 167%;
+    }
+    button.PasswordButton.btn.btn-primary.btn-sm {
+        position: absolute;
+        width: 27%;
+    }
+    label.nameLabel {
+        position: absolute;
+        left: 114%;
+        width: 122%;
+    }
+    button.resetPassword.btn.btn-primary {
+        position: absolute;
+        left: 18vh;
+        top: 1vh;
+        width: 88%;
+    }
+    .adminNameDiv {
+        position: absolute;
+        top: 30vh !important;
+        left: 4%;
+    }
+    label.adminLabel {
+        position: absolute;
+        top: 10%;
+        left: 4%;
+    }
+    .componentAdmin {
+        background-color: #EEF1F3;
+        position: absolute;
+        width: 77%;
+        top: 23%;
+        left: 19%;
+        height: 46%;
+    }
+    tbody.divBody {
+        position: absolute;
+        top: 12%;
+    }
+    .adminList.table.table-striped {
+        position: absolute;
+        width: 66%;
+        left: 32%;
+        top: 30px !important;
+        height: 213px;
+        overflow-y: scroll;
+        display: block;
+    }
+    .adminPasswordDiv {
+        position: absolute;
+        top: 35vh;
+        left: 4%;
+    }
+    input.currentPassword {
+        left: 6%;
+        width: 99%;
+        border-radius: 9px;
+    }
+    .newBranchDiv {
+        position: absolute;
+        top: 188%;
+    }
+    button.branchSave.btn.btn-primary {
+        margin-left: 216%;
+        width: 34%;
+        margin-top: -15%;
+    }
+   
+    input.newBranchInput {
+        position: absolute;
+        margin-left: 30%;
+        width: 106%;
+    }
+        input.newBranchDiv {
+        position: absolute;
+        top: 295%;
+    }
+    label.addBranchLabeltwo {
+        position: absolute;
+        top: 37%;
+        left: 0%;
+    }
+
+.BrnchDivisionList.css-b62m3t-container {
+    position: absolute;
+    width: 122%;
+    left: 82%;
+    top: 0%;
+}
+    .componentBranch {
+        position: absolute;
+        background-color: #EEF1F3;
+        top: 25%;
+        width: 73%;
+        left: 22%;
+        height: 55%;
+    }
+    
+    .addBranchParent {
+        position: absolute;
+        top: 8%;
+        left: 6%;
+        width: 44%;
+        height: 37%;
+    }
+    .componentBranch {
+        position: absolute;
+        background-color: #EEF1F3;
+        top: 25%;
+        width: 73%;
+        left: 22%;
+        height: 65%;
+    }
+    .componentNavbar {
+        position: absolute;
+        background-color: #EEF1F3;
+        width: 84%;
+        top: 8%;
+        left: 16%;
+        height: 10%;
+    }
+    .addDivisionListUser{
+        width: 62%;
+        left: 150px;
+        top: -19px;
+    
+    }
+    .addCountryListUser.css-b62m3t-container {
+        width: 62%;
+        left: 150px;
+        top: -19px;
+    }
+    button.addEmployee.btn.btn-link {
+        position: absolute;
+        top: 33%;
+        left: 4%;
+        font-size: larger;
+    }
+    button.division.btn.btn-link {
+        position: absolute;
+        left: 36%;
+        top: 33%;
+        font-size: larger;
+    }
+    button.branch.btn.btn-link {
+        position: absolute;
+        left: 55%;
+        top: 33%;
+        font-size: larger;
+    }
+    button.subuser.btn.btn-link {
+        position: absolute;
+        left: 74%;
+        top: 33%;
+        font-size: larger;
+    }
+    .componentDivision {
+        position: absolute;
+        background-color: #EEF1F3;
+        width: 72%;
+        top: 25%;
+        left: 22%;
+        height: 50%;
+    }
+    .addDivisionParent {
+        position: absolute;
+        left: 6%;
+        width: 80%;
+        height: 100%;
+        top: 7%;
+    }
+    table.divisiontable.table.table-striped {
+        position: absolute;
+        left: 43%;
+        width: 68%;
+        display: block;
+        overflow-y: scroll;
+        top: 0%;
+
+    }
+    .addDivisionSave {
+        position: absolute;
+        top: 71%;
+    }
+    input.addDivisionInput {
+        position: absolute;
+        left: 92%;
+        top: 2%;
+        width: 104%;
+    }
+    button.divisionSave.btn.btn-primary {
+        margin-left: 202%;
+        width: 36%;
+        margin-top: -14%;
+    }
+    .addEmployeeDiv {
+        position: absolute;
+        background-color: #EEF1F3;
+        width: 80%;
+        top: 24%;
+        left: 18%;
+        height: 65%;
+    }
+    
+    .updateDiv {
+        position: absolute;
+        top: 3%;
+        width: 67%;
+        left: 12%;
+    }
+    #empid, #name, #emailid, #cc, #geo, #division, #count {
+        width: 63%;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: 2px solid #ccc;
+        color: black;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .addDivisionList{
+        width: 68%;
+        left: 150px;
+        top: -19px;
+    
+    }
+    .addCountryList.css-b62m3t-container {
+        width: 68%;
+        left: 150px;
+        top: -19px;
+    }
+    .btn-submitadduser {
+        width: 63%;
+        color: white;
+        background-color: dodgerblue;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 148px;
+    }
+}

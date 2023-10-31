@@ -1,0 +1,161 @@
+@media screen and (max-width:1920px) and (min-width:1080px)  {
+    
+    .adminLoginImage{
+        background-image: url(../../../images/adminLogin.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .adminInput {
+        position: relative;
+        height: 50%;
+        top: 45%;
+        left: 20%;
+    }
+    .newLoginId {
+        position: relative;
+        height: 70%;
+        top: 29%;
+        width: 27%;
+        left: 35%;
+       
+    }
+    input.adminLoginbutton {
+        border-radius: 14px;
+    }
+    a.userLink {
+        color: orangered;
+    }
+    .employeeLink {
+        margin-top: -33%;
+        margin-left: 92%;
+        font-size: 20px;
+    }
+    h5.errorLabel {
+        margin-left: -3%;
+        color: red;
+        margin-top: 5px;
+    }
+    #email, #pwd, #employeeid {
+        width: 300px;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: 2px solid #ccc;
+        color: black;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    p
+    {
+      color: white;
+    }
+
+}
+@media screen and (max-width:1366px) and (min-width:768px)  {
+    h5.errorLabel {
+        margin-left: -3%;
+        color: red;
+        margin-top: 5px;
+    }
+    .adminLoginImage{
+        background-image: url(../../../images/adminLogin.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .newLoginId {
+        position: relative;
+        height: 70%;
+        top: 29%;
+        width: 27%;
+        left: 35%;
+       
+    }
+    .adminInput {
+        position: relative;
+        height: 50%;
+        top: 45%;
+        left: 10%;
+    }
+    input.adminLoginbutton {
+        border-radius: 14px;
+    }
+    .employeeLink {
+        margin-top: -31%;
+        margin-left: 88%;
+        font-size: 20px;
+    }
+    #email, #pwd, #employeeid {
+        width: 300px;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: 2px solid #ccc;
+        color: black;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    p
+    {
+      color: white;
+    }
+}
+@media screen and (max-width:1280px) and (min-width:800px) {
+    .adminInput {
+        position: relative;
+        height: 50%;
+        top: 28%;
+        left: 13%;
+    }
+    .employeeLink {
+        margin-top: -39% !important;
+        margin-left: 94% !important;
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-width:1100px) and (min-width:800px){
+   
+    .adminLoginImage {
+        background-image: url(../../../images/adminLogin.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: -64% !important;
+    }
+  
+    .newLoginId {
+        position: relative;
+        height: 70%;
+        top: 31% !important;
+        width: 27%;
+        left: 55% !important;
+    }
+    .employeeLink {
+        margin-top: -53%;
+        margin-left: 89%;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:768px){
+    .adminLoginImage {
+        background-image: url(../../../images/adminLogin.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: -55%;
+    }
+    .newLoginId {
+        position: relative;
+        height: 70%;
+        top: 21%;
+        width: 27%;
+        left: 52%;
+    }
+    .employeeLink {
+        margin-top: -53% !important;
+        margin-left: 92% !important;
+        font-size: 30px !important;
+    }
+}

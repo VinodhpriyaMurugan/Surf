@@ -1,0 +1,75 @@
+
+ .btn-repeat
+  {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: DodgerBlue;
+    color:white;
+    font-family: arial, sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+   
+  }
+  .btn-confirm
+  {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: DodgerBlue;
+    color:white;
+    font-family: arial, sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+   
+  }
+  .btn-cancel
+  {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: DodgerBlue;
+    color:white;
+    font-family: arial, sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+   
+  }
+  .css-ypiqx9-MuiDialogContent-root {
+    padding: 200px 200px;
+  }
+  
+  #email,#pwd{
+  color: white;
+}
+#dates{
+
+  width: 450px;
+
+  padding: 10px 20px;
+
+  margin: 8px 0;
+
+  border: 3px solid #ccc;
+
+  color:black;
+
+  box-sizing: border-box;
+
+  border-radius: 10px;
+
+  font-weight:bold;
+
+  font-size:14px;
+
+  }
+  
+  
+ 
+ 
+  * {
+    font-family: cfont !important;
+}

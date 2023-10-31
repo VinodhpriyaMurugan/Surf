@@ -1,0 +1,45 @@
+@media screen and (max-width:1366px) and (min-width:600px) {
+    @font-face {
+        font-family: cfont;
+        src: url('../../../Font/CustomFont.ttf');
+      }
+       *{
+          font-family: cfont;
+        }
+        .Userfooter {
+            margin-top: 1rem;
+            padding: -1rem;
+            background-color: #4b4276;
+            font-size: 14px;
+            font-family: cfont;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            /* left: 0px; */
+            width: 100%;
+            height: 3%;
+        }
+    }
+    @media screen and (max-width:1960px) and (min-width:1367px) {
+        @font-face {
+            font-family: cfont;
+            src: url('../../../Font/CustomFont.ttf');
+          }
+           *{
+              font-family: cfont;
+            }
+            .Userfooter {
+                margin-top: 1rem;
+                padding: -1rem;
+                background-color: #4b4276;
+                font-size: 14px;
+                font-family: cfont;
+                color: white;
+                position: fixed;
+                bottom: 0;
+                left: -3px;
+                width: 101%;
+                height: 2%;
+            }
+        }
+    

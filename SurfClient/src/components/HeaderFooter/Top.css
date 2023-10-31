@@ -1,0 +1,51 @@
+@font-face {
+  font-family: cfont;
+  src: url('../../Font/CustomFont.ttf');
+}
+ *{
+    font-family: cfont;
+  }
+.top
+  {
+   
+    background-color: #040D39;
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    
+  }
+  
+  .adminNavbarlogo{
+    width: 22%;
+    height: 8%;
+    position: fixed;
+}
+  
+    
+  button.adminLogOutButton.btn.btn-primary {
+    position: absolute;
+    height: 4vh;
+    background-color: #040D39;
+    left: 97%;
+    width: 2%;
+    padding: 0%;
+    border-color: #040D39;
+    top: 2%;
+}
+@media screen and (max-width:1920px) and (min-width:1080px)  { 
+
+  .adminNavbarlogo {
+    width: 10%;
+    height: 8%;
+    position: fixed;
+}
+@media screen and (max-width:1366px) and (min-width:768px) {
+  .adminNavbarlogo {
+    width: 14%;
+    height: 12%;
+    position: fixed;
+    top: -2%;
+}
+  
+}
+}

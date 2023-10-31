@@ -1,0 +1,130 @@
+button.userHomePage.btn.btn-primary {
+    position: absolute;
+    width: 3%;
+    background-color: #040D39;
+    border-color: #040D39;
+    left: 463%;
+    size: 13%;
+    font-size: 18px;
+    height: 7%;
+    top: -4.8px;
+}
+@media screen and (max-width:1920px) and (min-width:1080px) {
+    .ExpandedGridDiv {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .expandFoodTable {
+        position: absolute;
+        height: 70%;
+        width: 79%;
+        top: 8%;
+        left: 20%;
+    }
+    input.expandReservationSave {
+        position: absolute;
+        border-radius: 12%;
+        width: 6%;
+        left: 94%;
+        top: 121%;
+        height: 6%;
+        padding-top: 5px;
+    }
+    table.expandUserfoodTable.table.table-striped {
+        display: block;
+        overflow-y: scroll;
+        width: 100%;
+        height: 121%;
+    }
+    input.selectAll {
+        position: absolute;
+        left: 87%;
+        top: 121%;
+        border-radius: 12%;
+        width: 6%;
+        height: 6%;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+}
+thead.expandTableHeader {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+}
+svg.svg-inline--fa.fa-trash.griddateDelete {
+    color: #d20505;
+}
+@media screen and (max-width:1366px) and (min-width:768px) {
+
+    input.selectAll {
+        position: absolute;
+        left: 82%;
+        top: 116%;
+        border-radius: 12% !important;
+        width: 8% !important;
+        height: 8%;
+        padding-left: 7px !important;
+        padding-top: 4px !important;
+    }
+    table.expandUserfoodTable.table.table-striped {
+        display: block;
+        overflow-y: scroll;
+        width: 100%;
+        height: 116%;
+    }
+    input.expandReservationSave {
+        position: absolute;
+        border-radius: 12%;
+        width: 6%;
+        left: 92%;
+        top: 116%;
+        height: 8%;
+        padding-top: 4px;
+        padding-left: 14px;
+    }
+    
+}
+@media screen and (max-width:767px) and (min-width:350px) {
+    /* p.headertag1 {
+        display: none !important;
+    }
+    p.headertag2 {
+      display: none !important;
+    }
+    .foodMenuDiv {
+      display: none !important;
+    } */
+button.userHomePage.btn.btn-primary {
+    position: absolute;
+    width: 3%;
+    background-color: #040D39;
+    border-color: #040D39;
+    left: 74%;
+    size: 13%;
+    font-size: 18px;
+    height: 7%;
+    top: -1.8px;
+}
+input.expandReservationSave {
+    position: absolute;
+    width: 35%;
+    left: 58%;
+    border-radius: 10px;
+    background-color: #040D39;
+    height: 7.5;
+    height: 6.5vh;
+    top: 99.8%;
+    padding-top: 2%;
+    border-color: #040D39;
+}
+input.selectAll {
+    position: absolute;
+    top: 100%;
+    left: 7%;
+    height: 6.5vh;
+    padding-top: 2%;
+}
+}
