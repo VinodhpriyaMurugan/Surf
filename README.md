@@ -1,2 +1,2 @@
 # Surf
-Surf app to publish employees anniversary and birthdays
+Surf app to publish employees anniversary and birthdays to displays
