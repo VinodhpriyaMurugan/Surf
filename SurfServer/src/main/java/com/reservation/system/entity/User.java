@@ -1,5 +1,6 @@
 package com.reservation.system.entity;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -26,7 +27,7 @@ public class User
 	private Integer id;
 	
 	@Column(name = "emp_num")
-	private Integer employeeNumber;
+	private String employeeNumber;
 	
 	@Column(name = "emp_name")
 	private String employeeName;
@@ -41,7 +42,11 @@ public class User
 	
 	private String password;
 	
-	private Date dateofJoining;
+	private LocalDate dateofJoining;
+	
+	
+
+	private LocalDate dateofBirth;
 	
 	
 
@@ -62,8 +67,8 @@ public class User
 		super();
 	}
 
-	public User(Integer employeeNumber, String employeeName, String email, String division, String cc, String geo,
-			String password, boolean employeeStatus, VaccinationDetail vaccination_detail,Date dateofJoining) {
+	public User(String employeeNumber, String employeeName, String email, String division, String cc, String geo,
+			String password, boolean employeeStatus,LocalDate dateofJoining,LocalDate dateofBirth) {
 		super();
 		this.employeeNumber = employeeNumber;
 		this.employeeName = employeeName;
@@ -73,9 +78,34 @@ public class User
 		this.geo = geo;
 		this.password = password;
 		this.employeeStatus = employeeStatus;
-		this.vaccination_detail = vaccination_detail;
+//		this.vaccination_detail = vaccination_detail;
 		this.dateofJoining = dateofJoining;
+		this.dateofBirth = dateofBirth;
 	}
+	
+//	public User(Integer employeeNumber, String employeeName, String email, String division, String cc, String geo,
+//			String password, boolean employeeStatus, VaccinationDetail vaccination_detail,Date dateofJoining,Date dateofBirth) {
+//		super();
+//		this.employeeNumber = employeeNumber;
+//		this.employeeName = employeeName;
+//		this.email = email;
+//		this.division = division;
+//		this.cc = cc;
+//		this.geo = geo;
+//		this.password = password;
+//		this.employeeStatus = employeeStatus;
+//		this.vaccination_detail = vaccination_detail;
+//		this.dateofJoining = dateofJoining;
+//		this.dateofBirth =dateofBirth;
+//	}
+
+//	public Date getDateofBirth() {
+//		return dateofBirth;
+//	}
+//
+//	public void setDateofBirth(Date dateofBirth) {
+//		this.dateofBirth = dateofBirth;
+//	}
 
 	public Integer getId() {
 		return id;
@@ -85,11 +115,11 @@ public class User
 		this.id = id;
 	}
 
-	public Integer getEmployeeNumber() {
+	public String getEmployeeNumber() {
 		return employeeNumber;
 	}
 
-	public void setEmployeeNumber(Integer employeeNumber) {
+	public void setEmployeeNumber(String employeeNumber) {
 		this.employeeNumber = employeeNumber;
 	}
 
@@ -166,13 +196,27 @@ public class User
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	public void setDateofJoining(LocalDate dateofJoining) {
+		this.dateofJoining = dateofJoining;
+	}
 
-	public Date getDateofJoining() {
+	public LocalDate getDateofJoining() {
 		return dateofJoining;
 	}
 
-	public void setDateofJoining(Date dateofJoining) {
-		this.dateofJoining = dateofJoining;
+	public LocalDate getDateofBirth() {
+		return dateofBirth;
 	}
+
+	public void setDateofBirth(LocalDate dateofBirth) {
+		this.dateofBirth = dateofBirth;
+	}
+//	public Date getDateofJoining() {
+//		return dateofJoining;
+//	}
+//
+//	public void setDateofJoining(Date dateofJoining) {
+//		this.dateofJoining = dateofJoining;
+//	}
 	
 }

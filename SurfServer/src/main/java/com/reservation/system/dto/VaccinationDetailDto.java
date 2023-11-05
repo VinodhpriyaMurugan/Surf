@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class VaccinationDetailDto {
 	
 	private Integer id;
-	private Integer employeeNumber;
+	private String employeeNumber;
 	
 	private String vaccineStatus;
 	
@@ -20,7 +20,7 @@ public class VaccinationDetailDto {
 		super();
 	}
 
-	public VaccinationDetailDto(Integer employeeNumber, String vaccineStatus, LocalDate firstDose, LocalDate secondDose,
+	public VaccinationDetailDto(String employeeNumber, String vaccineStatus, LocalDate firstDose, LocalDate secondDose,
 			LocalDate nextDose) {
 		super();
 		this.employeeNumber = employeeNumber;
@@ -70,11 +70,11 @@ public class VaccinationDetailDto {
 		this.nextDose = nextDose;
 	}
 
-	public Integer getEmployeeNumber() {
+	public String getEmployeeNumber() {
 		return employeeNumber;
 	}
 
-	public void setEmployeeNumber(Integer employeeNumber) {
+	public void setEmployeeNumber(String employeeNumber) {
 		this.employeeNumber = employeeNumber;
 	}
 

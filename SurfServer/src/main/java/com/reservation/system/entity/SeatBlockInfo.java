@@ -16,19 +16,19 @@ public class SeatBlockInfo {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	private Integer employeeNumber;
+	private String employeeNumber;
 	@Column(name="dates")
 	private LocalDate date;
 	private String breakfast;
 	private String lunch;
 	private String snacks;	
 	
-	public Integer getEmployeeNumber() {
+	public String getEmployeeNumber() {
 		return employeeNumber;
 	}
 
 
-	public void setEmployeeNumber(Integer employeeNumber) {
+	public void setEmployeeNumber(String employeeNumber) {
 		this.employeeNumber = employeeNumber;
 	}
 
@@ -38,7 +38,7 @@ public class SeatBlockInfo {
 	}
 	
 	
-	public SeatBlockInfo(Integer employeeNumber, LocalDate date, String breakfast, String lunch, String snacks) {
+	public SeatBlockInfo(String employeeNumber, LocalDate date, String breakfast, String lunch, String snacks) {
 		super();
 		this.employeeNumber = employeeNumber;
 		this.date = date;

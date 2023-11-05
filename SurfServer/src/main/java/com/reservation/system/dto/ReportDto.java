@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class ReportDto {
 
-	private Integer employeeNumber;
+	private String employeeNumber;
 	private LocalDate date;
 	private String employeeName;
 	private String cc;
@@ -19,7 +19,7 @@ public class ReportDto {
 		super();
 	}
 
-	public ReportDto(Integer employeeNumber, LocalDate date, String breakfast,
+	public ReportDto(String employeeNumber, LocalDate date, String breakfast,
 			String lunch, String snacks) {
 		super();
 		this.employeeNumber = employeeNumber;
@@ -30,11 +30,11 @@ public class ReportDto {
 	}
 
 
-	public Integer getEmployeeNumber() {
+	public String getEmployeeNumber() {
 		return employeeNumber;
 	}
 
-	public void setEmployeeNumber(Integer employeeNumber) {
+	public void setEmployeeNumber(String employeeNumber) {
 		this.employeeNumber = employeeNumber;
 	}
 

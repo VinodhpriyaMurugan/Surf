@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 public class SeatBlockDto {
-	private Integer employeeNumber;
+	private String employeeNumber;
 	private LocalDate date;
 	private String breakfast;
 	private String lunch;
@@ -22,7 +22,7 @@ public class SeatBlockDto {
 		super();
 	}
 
-	public SeatBlockDto(Integer employeeNumber, LocalDate date, String breakfast, String lunch, String snacks) {
+	public SeatBlockDto(String employeeNumber, LocalDate date, String breakfast, String lunch, String snacks) {
 		super();
 		this.employeeNumber = employeeNumber;
 		this.date = date;
@@ -31,7 +31,7 @@ public class SeatBlockDto {
 		this.snacks = snacks;
 	}
 
-	public SeatBlockDto(Integer employeeNumber, LocalDate date, String food, String breakfast, String lunch,
+	public SeatBlockDto(String employeeNumber, LocalDate date, String food, String breakfast, String lunch,
 			String snacks) {
 		super();
 		this.employeeNumber = employeeNumber;
@@ -42,11 +42,11 @@ public class SeatBlockDto {
 		this.snacks = snacks;
 	}
 
-	public Integer getEmployeeNumber() {
+	public String getEmployeeNumber() {
 		return employeeNumber;
 	}
 
-	public void setEmployeeNumber(Integer employeeNumber) {
+	public void setEmployeeNumber(String employeeNumber) {
 		this.employeeNumber = employeeNumber;
 	}
 
