@@ -38,11 +38,11 @@ img.empImg {
 @media screen and (max-width:1920px) and (min-width:1080px) {
     .updateEmployeeDiv {
         background-color: #EEF1F3;
-        top: 20%;
+        top: 15%;
         position: absolute;
         left: 33%;
         width: 51%;
-        height: 65%;
+        height: 75%;
     }
     .updateEmployeeChildDiv {
         position: absolute;

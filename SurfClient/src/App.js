@@ -18,6 +18,8 @@ import Feeds from './components/Admin/Feeds/Feeds';
 import ImgUpload from './components/Admin/UpdateEmployee/ImgUpload';
 import ImageComponent from './components/Admin/UpdateEmployee/ImageComponent';
 import ImageDisplayComponent from './components/Admin/UpdateEmployee/ImageDisplayComponent';
+import EmployeeAnniversary from './components/Admin/Feeds/EmployeeAnniversary';
+import ImgUp from './components/Admin/Feeds/ImgUp';
 
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
         <Route exact path="/autologout" element={<Timeout/>} />
         <Route exact path="/upload" element={<ImgUpload/>} />
         <Route exact path="/getImg" element={<ImageDisplayComponent/>} />
+        <Route exact path="/publish" element={<EmployeeAnniversary/>} />
+        <Route exact path="/dynImg" element={<ImgUp/>} />
         </Routes>
           </Router>
     </div>

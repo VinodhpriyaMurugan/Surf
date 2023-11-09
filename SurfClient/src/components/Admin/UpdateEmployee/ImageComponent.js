@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 
 const ImageComponent = ({empid}) => {
   const [imageURLs, setImageURLs] = useState([]);
-
+  const baseUrl = "https://reserve.tpfsoftware.com/tpfSoftware"
+  // const baseUrl = "http://localhost:8081/tpfSoftware";
   useEffect(() => {
     // Make an HTTP request to fetch the image URLs from the server
-    fetch('http://localhost:8080/tpfSoftware/images/${empid}')
+    fetch(baseUrl+`/images/${empid}`)
       .then((response) => response.json())
       .then((data) => {
         // Set the fetched image URLs in the state

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const ImageUploadForm = () => {
+const ImageUploadForm = ({ onImageUpload }) => {
+    const baseUrl = "https://reserve.tpfsoftware.com/tpfSoftware"
+// const baseUrl = "http://localhost:8081/tpfSoftware";
   const [image, setImage] = useState(null);
 
   const handleImageChange = (e) => {
@@ -14,7 +16,7 @@ const ImageUploadForm = () => {
     formData.append('file', image);
 
     try {
-      await axios.post('http://localhost:8080/imageUpload', formData, {
+      await axios.post(baseUrl+'/imageUpload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

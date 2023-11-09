@@ -4,7 +4,7 @@ import Footer from './UserFooter';
 import '../../Employee/ReservationRequest.css'
 import UserServices from '../../../services/UserServices';
 import React, { useState,useEffect} from 'react';
-
+import { Link } from 'react-router-dom';
 // import { Button } from "react-bootstrap";
 // import Tooltip from '@mui/material/Tooltip';
 // import VaccinationDialog from "../VaccinationDialog";
@@ -12,6 +12,7 @@ import React, { useState,useEffect} from 'react';
 function UserNavBar(props) {
 
     const userId = props.user;
+    const role = props.role;
     const [name, setName] = useState('');
     // const [firstDose,setFirstDose] = useState();
     // const [secondDose,setSecondDose] = useState();
@@ -50,6 +51,10 @@ function UserNavBar(props) {
                 <div class="Usersidebar">
                     <p className='headertag1'>Hello</p>
                     <p className='headertag2'>{name}</p>
+                    {role &&   <ul>                       
+                        <li><Link to="/feeds" style={{ textDecoration: 'none' }}>Today Feeds</Link></li>
+                    </ul> }
+                    
             {/* <VaccinationDialog empNum={userId} hidden={editVaccineDialog}/>
 
             <Tooltip title="edit">

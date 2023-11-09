@@ -28,6 +28,7 @@ class EmployeeList extends PureComponent {
             countValue: '',
             minValue: '',
             dataValues:[{}],
+            userCopy:[],
       maxValue: '',
             employeeType: '',
             option: [{ value: 'Live Employee', label: 'Live Employee' },
@@ -55,7 +56,8 @@ class EmployeeList extends PureComponent {
                 orgtableData: Response.data,
                 countValue: data.length,
                 employeeType: ({ label: 'Live Employee' }),
-                users: slice
+                users: slice,
+                userCopy:Response.data
             })
         });
     }
@@ -157,7 +159,7 @@ class EmployeeList extends PureComponent {
 
     }
     fetchFeeds = async(value) =>{
-        var data ;        console.log(value.label)
+        var data ;      
       let val = {
         eventType: value.label
       }
@@ -184,37 +186,47 @@ class EmployeeList extends PureComponent {
         this.setState({ maxValue: e.target.value });
       };
     fetchAnniversary = async() =>{      
-        var data ;  
+      
         var feedData =[];
         let value ={
             min:this.state.minValue,max:this.state.maxValue
         }    
-        userservices.fetchDataForFeed(value).then((Response) => {
-            let feedData = [];
-        
-            Response.data.forEach((element) => {
-                console.log(element.dateofJoining);
-                let values = this.calculateExperience(element.dateofJoining);
-                if (parseInt(values) > parseInt(value.min)){
-                    if(parseInt(values) < parseInt(value.max))
-                 {
-                    feedData.push(element); // Push elements between min and max values
-                }
+
+        this.state.userCopy.forEach((element) => {
+            console.log(element.dateofJoining);
+            let values = this.calculateExperience(element.dateofJoining);
+            if (parseInt(values) >= parseInt(value.min)){
+                if(parseInt(values) <= parseInt(value.max))
+             {
+                feedData.push(element); // Push elements between min and max values
             }
-        });
+        }
+    });
+        // userservices.fetchDataForFeed(value).then((Response) => {
+        //     let feedData = [];
+        
+        //     Response.data.forEach((element) => {
+        //         console.log(element.dateofJoining);
+        //         let values = this.calculateExperience(element.dateofJoining);
+        //         if (parseInt(values) >= parseInt(value.min)){
+        //             if(parseInt(values) <= parseInt(value.max))
+        //          {
+        //             feedData.push(element); // Push elements between min and max values
+        //         }
+        //     }
+        // });
         
             console.log('Filtered feedData:', feedData);
         
-            var slice = feedData.slice(this.state.offset, this.state.offset + this.state.perPage);
-        
+            var slice = feedData.slice(this.state.offset, this.state.offset + this.state.perPage);        
             this.setState({
                 pageCount: Math.ceil(feedData.length / this.state.perPage),
-                orgtableData: Response.data,
+                orgtableData: feedData,
                 countValue: feedData.length,
                 users: slice
             });
-        });
-        
+        // });
+      
            
       
     }
@@ -246,7 +258,7 @@ class EmployeeList extends PureComponent {
                         <Select options={this.state.optionevent} className="eventType" value={this.state.event} onChange={this.fetchFeeds} />
                         <div className='number-range' style={{display:'flex'}}>
                             <div className='htag'>
-                            <h6 className='searchLabel'>Anniversary</h6>
+                            <h6 className='searchLabel' title='Anniversary for current month'>Anniversary</h6>
                             </div>
                        
                         <div className='htag'>

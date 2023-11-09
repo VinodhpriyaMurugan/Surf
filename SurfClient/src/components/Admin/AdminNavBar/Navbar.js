@@ -16,7 +16,7 @@ function navbar() {
                         <li><Link to="/component" style={{ textDecoration: 'none' }}>Component</Link></li>
                         <li><Link to="/seatUpdate" style={{ textDecoration: 'none' }}>Seat Allotment</Link></li>
                         <li><Link to="/report" style={{ textDecoration: 'none' }}>Employee Report</Link></li>
-                        <li><Link to="/feeds" style={{ textDecoration: 'none' }}>Feeds</Link></li>
+                        <li><Link to="/feeds" style={{ textDecoration: 'none' }}>Today Feeds</Link></li>
                         {/* <li><Link to="/logout" style={{ textDecoration: 'none' }}>Logout</Link></li> */}
                     </ul>
                 </div>

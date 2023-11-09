@@ -31,7 +31,8 @@ function EmployeeComponent(props) {
             <div className="newAdminLogin">
                 <div className='userInput'>
                     <form onSubmit={onSubmit}>
-                        <input type="text" id="email" placeholder='Enter your EmpId ' pattern="[0-9]{1,4}" onChange={(e) => { setEmployeeId(e.target.value) }} required />
+                        {/* "[0-9]{1,4}" */}
+                        <input type="text" id="email" placeholder='Enter your EmpId ' pattern="\\b\\d{1,5}\\b|\\b[a-zA-Z]{1,4}+\\d{1,5}+\\b" onChange={(e) => { setEmployeeId(e.target.value) }} required />
                         <input type="submit" className='userPageSubmitBtn' value="Submit" />
                         <h5 className="userErrorLabel" hidden={errorMsg}>Employee Id is not valid</h5><br></br>
                     </form>

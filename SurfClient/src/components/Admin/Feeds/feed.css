@@ -1,3 +1,11 @@
+@font-face {
+  font-family: feedFont;
+  src: url('../../../Font/KaushanScript-Regular.ttf');
+}
+ *{
+     font-family: feedFont ;
+  }
+
 .container {
     display: flex;
     justify-content: center;
@@ -8,16 +16,19 @@
     border-radius: 33px;
       /* background-color: #a8c7eb; */
       max-width: 2020px;
+      font-family: feedFont !important;
+    z-index: 2;
   }
   img.layout-img {
     width: 2vw;
 }
-.displaymsg {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px; /* Optional: Add margin between each set of elements */
+.displaymsg {  
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-family: feedFont !important; 
 }
-
 .tsig {
   margin-right: 10px; /* Adjust the margin between the image and the first message */
 }
@@ -38,38 +49,79 @@ button.layoutBtn {
   left: 96vw;
   top: 1vw;
 }
-  @font-face {
-    font-family: feedFont;
-    src: url('../../../Font/KaushanScript-Regular.ttf');
-  }
-   *{
-       font-family: feedFont !important;
-    }
-  .feed-parent {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    /* background-color: aquamarine; */
+table.feedComponentMainTable.table.table-striped {
+  position: absolute;
+  display: block;
+  height: 75vh !important;
+  overflow-y: scroll;
+  left: 33vw;
+}
+button.publish-btn {
+  position: absolute;
+  left: 85vw;
+  width: 7vw;
+  border-radius: 10px;
+  border: none;
+  height: 5vh;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+  z-index: 2;
+}
+.feed-parent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 8vh;
+ 
+  /* background-color: aquamarine; */
 }
 .fade-in-out-text {
   width: 50vw;
+  margin-top: 20%;
 }
 h4.display-msgtag {
-  font-size: 3em;
+  font-size: 4em;
+  font-family: feedFont !important;
+}
+.birthday-tag{
+  margin-top:35%;
+  margin-left:45%
+}
+.birthday-logo{
+  margin-top:45%
+}
+
+.newjoinee-tag {
+  margin-top: 30%;
+  /* margin-top: 80%; */
+  margin-left: 5%;
+  color: rgb(214, 30, 131);
+}
+.newjoinee-logo{
+  margin-top:50%
 }
 h1.exp-tag {
   font-size: 10em;
 }
+/* .employee-container-img {
+ 
+  width: 40vw;
+  height: 40vw;
+ 
+} */
 .employee-container-img {
   /* position: absolute; */
   width: 40vw;
-  height: 40vw;
+  height: 34vw;
+  display: flex;
+  /* background-color: antiquewhite; */
 }
 img.feedimg {
   width: 25vw;
-  position: absolute;
-  border-radius: 25px;
-  /* top: -19vw; */
+  border-radius: 25%;
+  margin-left: 7vw;
+  box-shadow: 16px -6px 10px 5px rgb(145 119 119 / 50%);
 }
 .img-div {
   width: 40vw;
@@ -80,17 +132,41 @@ img.feedimg {
   width: 100vw;
   height: 100vh;
   top: 0vw;
-  background-image: url('../../../images/bdayBg.jpg');
+  /* background-image: url('../../../images/bdayBg.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   background-color: antiquewhite;
 }
 .birthday-bg {
-  background-image: url('../../../images/bdayBg.jpg');
+  background-image: url('../../../images/bdayBg.png');
 }
 
 .anniversary-bg {
-  background-image: url('../../../images/feedsBg.jpg');
+  background-image: url('../../../images/anniversary.jpg');
+}
+.newjoinee-bg{
+  background-image: url('../../../images/newjoinee.png');
+}
+.container {
+  max-width: 98vw !important;
+}
+.birthday-img{
+  flex: 10%;
+}
+.anniversary-img{
+  flex: 70%;
+}
+.imageDisplay {
+  position: fixed;
+  width: 95vw;
+  height: 28vh;
+  top: 30vw;
+  left: 2vw;
+  /* overflow: scroll; */
+  /* flex: 1; */
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
 }
   .employee-container {
     width: 50vw;

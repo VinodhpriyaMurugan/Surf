@@ -3,6 +3,8 @@ import axios from 'axios';
 import { Navigate, useNavigate } from 'react-router';
 
 const ImgUpload = ({empid}) => {
+    const baseUrl = "https://reserve.tpfsoftware.com/tpfSoftware"
+// const baseUrl = "http://localhost:8081/tpfSoftware";
   const [image, setImage] = useState(null);
   let navi = useNavigate();
   const handleImageChange = (e) => {
@@ -20,12 +22,13 @@ const handlePreview = ()=>{
     formData.append('empId',empid)
 
     try {
-      await axios.post('http://localhost:8080/tpfSoftware/imageUpload', formData, {
+      await axios.post(baseUrl+'/imageUpload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
       });
       console.log('Image uploaded successfully!');
+      window.location.reload();
     } catch (error) {
       console.error('Error uploading image:', error);
     }
@@ -35,7 +38,7 @@ const handlePreview = ()=>{
     <form onSubmit={handleFormSubmit}>
       <input type="file" onChange={handleImageChange} />
       <button type="submit">Upload Image</button>
-      <button onClick={handlePreview}> preview </button>
+      {/* <button onClick={handlePreview}> preview </button> */}
     </form>
   );
 };

@@ -42,13 +42,16 @@ export default function ReservationRequest() {
   const currentDate = moment(new Date()).format("YYYY-MM-DD");
   const [blockedDialog, setBlockedDialog] = useState(false);
   const [recentBooked, setRecentBooked] = useState();
-
+  const [roleDisplay, setRoleDisplay] = useState(false);
   const foodDatas = [];
   React.useEffect(
     function effectFunction() {
       (async () => {
         await UserServices.retriveEmployeeDetails(id).then((Response) => {
-          if (Response.data.currentTime >= 18) {
+          console.log("Response.data.currentTime",Response.data)
+          fetchRoles(Response.data.role)
+          if (value >= 18) {
+            // alert("crossed 18")
             setBlockedDialog(true);
           }
           setNextDay(Response.data.nextDay);
@@ -73,7 +76,13 @@ export default function ReservationRequest() {
     },
     [id, value]
   );
-
+const fetchRoles =(roles)=>{
+  const filteredRoles = roles.filter(role => role === "ROLE_DISPLAY");
+ console.log("Value of role========>",filteredRoles)
+ if(filteredRoles.length){
+  setRoleDisplay(true)
+ }
+}
   const onSubmission = () => {
     const formattedDate = [];
     for (var i = 0; i < dat.length; i++) {
@@ -219,7 +228,7 @@ export default function ReservationRequest() {
 
       <div className="sidebarDiv">
         <UserNavbarTop />
-        <UserNavBar user={id} />
+        <UserNavBar user={id}  role={roleDisplay}/>
         {/* <VaccinationDialog empNum={id} /> */}
       </div>
       <div className="bookingDiv">
